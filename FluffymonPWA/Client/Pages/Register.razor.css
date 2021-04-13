@@ -1,0 +1,54 @@
+﻿﻿.register-container {
+    width: 100%;
+    padding-bottom: 420px;
+}
+
+.register-container .form-container {
+    display: table;
+    width: 800px;
+    height: 50vh;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.register-container form {
+    width: 500px;
+    display: table-cell;
+    background-color: #858AE3;
+    padding: 20px 40px;
+    color: #858AE3;
+    margin-right: 200px;
+}
+
+h3 {
+    font-family: Century Gothic;
+    font-size: 60px;
+    line-height: 22px;
+    font-weight: 200;
+    color: #F8F7FF;
+    padding: 80px 0px 20px 0px;
+    margin: 0
+}
+
+.register-cointainer form .form-control {
+    padding-right: 310px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #dfe7f1;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    color: inherit;
+    text-indent: 0px;
+    height: 40px
+}
+
+.links {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #F8F7FF;
+    opacity: 0.8;
+    text-decoration: none
+}

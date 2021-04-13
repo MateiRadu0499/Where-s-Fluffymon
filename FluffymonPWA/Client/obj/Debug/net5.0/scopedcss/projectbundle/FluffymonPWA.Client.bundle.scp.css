@@ -1,5 +1,78 @@
 @import '';
 
+/* /Pages/Profile.razor.rz.scp.css */
+
+﻿body[b-mk2n0tthi3] {
+}
+/* /Pages/Register.razor.rz.scp.css */
+.register-container[b-ojt73cahh1] {
+    width: 100%;
+    padding-bottom: 420px;
+}
+
+.register-container .form-container[b-ojt73cahh1] {
+    display: table;
+    width: 800px;
+    height: 50vh;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.register-container form[b-ojt73cahh1] {
+    width: 500px;
+    display: table-cell;
+    background-color: #858AE3;
+    padding: 20px 40px;
+    color: #858AE3;
+    margin-right: 200px;
+}
+
+h3[b-ojt73cahh1] {
+    font-family: Century Gothic;
+    font-size: 60px;
+    line-height: 22px;
+    font-weight: 200;
+    color: #F8F7FF;
+    padding: 80px 0px 20px 0px;
+    margin: 0
+}
+
+.register-cointainer form .form-control[b-ojt73cahh1] {
+    padding-right: 310px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #dfe7f1;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    color: inherit;
+    text-indent: 0px;
+    height: 40px
+}
+
+.links[b-ojt73cahh1] {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #F8F7FF;
+    opacity: 0.8;
+    text-decoration: none
+}
+/* /Shared/LoginLayout.razor.rz.scp.css */
+.page[b-ku39ykhpf3] {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.main[b-ku39ykhpf3] {
+    flex: 1;
+    height: 120vh;
+    background-color: #B8B8FF;
+    background-position: center;
+    background-size: cover;
+}
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-68pdl77mck] {
     position: relative;
@@ -9,7 +82,12 @@
 
 .main[b-68pdl77mck] {
     flex: 1;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://i.imgur.com/nf9IQ0Y.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
+
 
 .sidebar[b-68pdl77mck] {
     background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
@@ -23,11 +101,6 @@
     display: flex;
     align-items: center;
 }
-
-    .top-row[b-68pdl77mck]  a, .top-row .btn-link[b-68pdl77mck] {
-        white-space: nowrap;
-        margin-left: 1.5rem;
-    }
 
     .top-row a:first-child[b-68pdl77mck] {
         overflow: hidden;

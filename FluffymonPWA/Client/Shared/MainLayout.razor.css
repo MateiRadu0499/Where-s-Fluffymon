@@ -6,7 +6,12 @@
 
 .main {
     flex: 1;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://i.imgur.com/nf9IQ0Y.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
+
 
 .sidebar {
     background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
@@ -20,11 +25,6 @@
     display: flex;
     align-items: center;
 }
-
-    .top-row ::deep a, .top-row .btn-link {
-        white-space: nowrap;
-        margin-left: 1.5rem;
-    }
 
     .top-row a:first-child {
         overflow: hidden;
