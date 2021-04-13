@@ -1,0 +1,13 @@
+﻿.page[b-ku39ykhpf3] {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.main[b-ku39ykhpf3] {
+    flex: 1;
+    height: 120vh;
+    background-color: #B8B8FF;
+    background-position: center;
+    background-size: cover;
+}

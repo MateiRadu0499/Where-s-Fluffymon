@@ -1,0 +1,102 @@
+﻿@page "/register"
+@using System.Timers
+@layout LoginLayout
+@inject NavigationManager NavManager
+@using FluffymonPWA.Client.Models
+
+
+<h3 class="text-center" style="color:white"><strong>Create an account</strong></h3>
+<div class="register-container">
+    <div class="form-container">
+        <form method="post">
+            <EditForm Model="@user" OnValidSubmit="RegisterUser">
+                <DataAnnotationsValidator />
+                <div class="form-group">
+                    <InputText id="username" class="form-control" placeholder="Username"
+                               @bind-Value="user.Username" />
+                    <ValidationMessage For="@(() => user.Username)" />
+                </div>
+                <div class="form-group">
+                    <InputText id="firstName" class="form-control" placeholder="First Name"
+                               @bind-Value="user.FirstName" />
+                    <ValidationMessage For="@(() => user.FirstName)" />
+                </div>
+                <div class="form-group">
+                    <InputText id="lastName" class="form-control" placeholder="Last Name"
+                               @bind-Value="user.LastName" />
+                    <ValidationMessage For="@(() => user.LastName)" />
+                </div>
+                <div class="form-group">
+                    <InputText id="phoneNumber" class="form-control" placeholder="PhoneNumber"
+                               @bind-Value="user.PhoneNumber" />
+                    <ValidationMessage For="@(() => user.PhoneNumber)" />
+                </div>
+                <div class="form-group">
+                    <InputText id="email" class="form-control" placeholder="Email"
+                               @bind-Value="user.Email" />
+                    <ValidationMessage For="@(() => user.Email)" />
+                </div>
+                <div class="form-group">
+                    <InputText type="password" class="form-control" id="register-password" placeholder="Password"
+                               @bind-Value="user.Password" />
+                    <ValidationMessage For="@(() => user.Password)" />
+                </div>
+
+                <div class="form-group">
+                    <InputText type="password" class="form-control" id="confirm-password" placeholder="Confirm Password"
+                               @bind-Value="ConfirmPassword" />
+                    <ValidationMessage For="@(() => ConfirmPassword)" />
+                </div>
+
+                <div class="form-group">
+                    <input class="btn btn-primary btn-block" type="submit" value="Submit" />
+                    <a class="links" href="/login">Already have an account? Click here to login.</a>
+                </div>
+
+            </EditForm>
+        </form>
+    </div>
+</div>
+
+<p>@res</p>
+
+@code {
+    private User user = new User();
+    private string res = "";
+    private static Timer timer;
+    private string ConfirmPassword = "";
+
+    HttpClient httpClient = new HttpClient()
+    {
+        BaseAddress = new Uri("http://localhost:5002")
+    };
+
+    protected async Task RegisterUser()
+    {
+
+        if(user.Password != ConfirmPassword)
+        {
+            res = "Passwords do not match.";
+        }
+        HttpResponseMessage response = await httpClient.PostAsJsonAsync<User>("/api/v1/Register", user);
+        if (response.StatusCode.ToString() == "OK")
+        {
+            res = "Account created succesfully";
+        }
+        else
+        {
+            res = "Username already in use.";
+        }
+
+        timer = new System.Timers.Timer();
+        timer.Interval = 6000;
+
+        timer.Elapsed += (sender, args) =>
+        {
+            NavManager.NavigateTo("/login");
+        };
+
+        timer.AutoReset = true;
+        timer.Enabled = true;
+    }
+}

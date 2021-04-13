@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluffymonPWA.Server", "Server\FluffymonPWA.Server.csproj", "{4659ACEE-39EC-40F0-8AE3-F6A51754917D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluffymonPWA.Server", "Server\FluffymonPWA.Server.csproj", "{4659ACEE-39EC-40F0-8AE3-F6A51754917D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluffymonPWA.Client", "Client\FluffymonPWA.Client.csproj", "{5BD0FCEB-5831-4A92-B0B7-E8B2A1DA8891}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluffymonPWA.Client", "Client\FluffymonPWA.Client.csproj", "{5BD0FCEB-5831-4A92-B0B7-E8B2A1DA8891}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluffymonPWA.Shared", "Shared\FluffymonPWA.Shared.csproj", "{A086CD1B-C989-4F49-B121-FA93986D1565}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluffymonPWA.Shared", "Shared\FluffymonPWA.Shared.csproj", "{A086CD1B-C989-4F49-B121-FA93986D1565}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
