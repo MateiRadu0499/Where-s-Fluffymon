@@ -1,9 +1,5 @@
-﻿@inject Blazored.LocalStorage.ILocalStorageService localStorage
-@inject NavigationManager NavManager
-
-
-<div class="top-row pl-4 navbar navbar-dark">
-    <a class="navbar-brand" href="">BDefender</a>
+﻿<div class="top-row pl-4 navbar navbar-dark">
+    <a class="navbar-brand" href="">FluffymonPWA</a>
     <button class="navbar-toggler" @onclick="ToggleNavMenu">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -11,50 +7,25 @@
 
 <div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
     <ul class="nav flex-column">
-
-        @if (IsLogged == false)
-        {
-            <li class="nav-item px-3">
-                <NavLink class="nav-link" href="login">
-                    <span class="oi oi-list-rich" aria-hidden="true"></span> Login
-                </NavLink>
-            </li>
-            <li class="nav-item px-3">
-                <NavLink class="nav-link" href="register">
-                    <span class="oi oi-list-rich" aria-hidden="true"></span> Register
-                </NavLink>
-            </li>
-
-        }
-        else if (IsLogged == true)
-        {
-            <li class="nav-item px-3">
-                <NavLink class="nav-link" href="profile">
-                    <span class="oi oi-home" aria-hidden="true"></span> My Profile
-                </NavLink>
-            </li>
-            <li class="nav-item px-3">
-                <NavLink class="nav-link" href="posts">
-                    <span class="oi oi-list-rich" aria-hidden="true"></span> Posts
-                </NavLink>
-            </li>
-            <li class="nav-item px-3">
-                <NavLink class="nav-link" href="history">
-                    <span class="oi oi-list-rich" aria-hidden="true"></span> History
-                </NavLink>
-            </li>
-            <li class="nav-item px-3">
-                <NavLink class="nav-link" href="logout">
-                    <span class="oi oi-list-rich" aria-hidden="true"></span> Logout
-                </NavLink>
-            </li>
-
-        }
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="profile" Match="NavLinkMatch.All">
+                <span class="oi oi-home" aria-hidden="true"></span> Profile
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="post">
+                <span class="oi oi-plus" aria-hidden="true"></span> Create post
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="posts">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Missing pets
+            </NavLink>
+        </li>
     </ul>
 </div>
 
 @code {
-    private bool IsLogged = false;
     private bool collapseNavMenu = true;
 
     private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;

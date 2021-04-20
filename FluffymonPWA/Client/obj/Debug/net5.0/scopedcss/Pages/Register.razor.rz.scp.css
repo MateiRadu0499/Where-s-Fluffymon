@@ -1,7 +1,13 @@
-﻿.register-container[b-ojt73cahh1] {
+.register-container[b-ojt73cahh1] {
     width: 100%;
     padding-bottom: 420px;
+    background-image: linear-gradient(45deg, #22181C, #312F2F, #84DCCF);
 }
+
+.all[b-ojt73cahh1] {
+    background-image: linear-gradient(45deg, #22181C, #312F2F, #84DCCF);
+}
+
 
 .register-container .form-container[b-ojt73cahh1] {
     display: table;
@@ -14,9 +20,9 @@
 .register-container form[b-ojt73cahh1] {
     width: 500px;
     display: table-cell;
-    background-color: #858AE3;
+    background-color: #54988E;
     padding: 20px 40px;
-    color: #858AE3;
+    background-image: linear-gradient(45deg, #22181C, #312F2F, #84DCCF);
     margin-right: 200px;
 }
 
@@ -27,7 +33,8 @@ h3[b-ojt73cahh1] {
     font-weight: 200;
     color: #F8F7FF;
     padding: 80px 0px 20px 0px;
-    margin: 0
+    margin: 0 ;
+    background-image: linear-gradient(45deg, #22181C, #312F2F, #84DCCF);
 }
 
 .register-cointainer form .form-control[b-ojt73cahh1] {

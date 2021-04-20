@@ -1,7 +1,23 @@
 ﻿@page "/"
+@layout FormLayout
+@inject NavigationManager NavManager
 
-<h1>Hello, world!</h1>
 
-Welcome to your new app.
+<div class="title">FluffyMoon!</div>
+<div class="buttons">
+    <button id="login" type="button" @onclick="GoLogin">Login</button>
+    <button id="register" type="button" @onclick="GoRegister">Register</button>
+</div>
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+
+@code{
+    protected async void GoLogin()
+    {
+        NavManager.NavigateTo("/login");
+    }
+
+    protected async void GoRegister()
+    {
+        NavManager.NavigateTo("/register");
+    }
+}

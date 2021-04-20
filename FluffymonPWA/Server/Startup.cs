@@ -1,10 +1,11 @@
+using FluffymonPWA.Server.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using FluffymonPWA.Server.Models;
-using Microsoft.EntityFrameworkCore;
+using FluffymonPWA.Server.Data;
 
 namespace FluffymonPWA.Server
 {
@@ -23,7 +24,6 @@ namespace FluffymonPWA.Server
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<DataContext>(options => options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
-
             services.AddCors(options =>
             {
                 options.AddPolicy(MyAllowSpecificOrigins, builder =>
@@ -53,16 +53,17 @@ namespace FluffymonPWA.Server
                 app.UseHsts();
             }
 
+
             app.UseHttpsRedirection();
             app.UseBlazorFrameworkFiles();
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseCors(MyAllowSpecificOrigins);
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
-                endpoints.MapControllers();
+                endpoints.MapControllers().RequireCors(MyAllowSpecificOrigins);
                 endpoints.MapFallbackToFile("index.html");
             });
         }

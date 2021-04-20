@@ -1,0 +1,45 @@
+﻿@page "/posts"
+@using FluffymonPWA.Client.Models
+@inject HttpClient Http
+
+<h1>List of missing pets</h1>
+
+@if (posts == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Reward</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var post in posts)
+            {
+                <tr>
+                    <td>@post.Title</td>
+                    <td>@post.Description</td>
+                    <td>@post.Reward</td>
+                    <td>@post.Date</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+
+    private Post[] posts;
+
+    protected override async Task OnInitializedAsync()
+    {
+        posts = await Http.GetFromJsonAsync<Post[]>("/api/v1/all");
+    }
+
+}

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace FluffymonPWA.Server.Models
+﻿namespace FluffymonPWA.Server.Models
 {
     public class Comment
     {

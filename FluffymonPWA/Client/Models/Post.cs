@@ -14,7 +14,7 @@ namespace FluffymonPWA.Client.Models
         public string Description { get; set; }
         public DateTime Date { get; set; }
         public IEnumerable<Comment> Comments { get; set; }
-        public int Reward { get; set; }
+        public string Reward { get; set; }
 
     }
 }

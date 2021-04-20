@@ -3,11 +3,11 @@ using System.Linq;
 using System.Text;
 using System.Security.Cryptography;
 using FluffymonPWA.Server.Models;
-
+using System;
 
 namespace FluffymonPWA.Server.Controllers
 {
-    [Route("api/v1/[controller]")]
+    [Route("api/v1/Login")]
     [ApiController]
     public class LoginController : Controller
     {
@@ -39,11 +39,11 @@ namespace FluffymonPWA.Server.Controllers
         [HttpPost]
         public ActionResult LoginUser(User userLogin)
         {
+            Console.WriteLine("Login Post");
             string hashedPass = ComputeSha256Hash(userLogin.Password);
             var display = _context.Users.Where(u => (u.Username == userLogin.Username && u.Password == hashedPass && u.IsDeleted == false)).FirstOrDefault();
             if (display != null)
             {
-                string Status = "Authenticated succesfully.";
                 return Ok(display.Id);
             }
             else

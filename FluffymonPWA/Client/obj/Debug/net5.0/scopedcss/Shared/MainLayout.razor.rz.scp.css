@@ -6,25 +6,27 @@
 
 .main[b-68pdl77mck] {
     flex: 1;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://i.imgur.com/nf9IQ0Y.jpeg");
     height: 100vh;
     background-size: cover;
     background-position: center;
 }
-
 
 .sidebar[b-68pdl77mck] {
     background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
 }
 
 .top-row[b-68pdl77mck] {
-    background-color: #f7f7f7;
     border-bottom: 1px solid #d6d5d5;
     justify-content: flex-end;
     height: 3.5rem;
     display: flex;
     align-items: center;
 }
+
+    .top-row[b-68pdl77mck]  a, .top-row .btn-link[b-68pdl77mck] {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+    }
 
     .top-row a:first-child[b-68pdl77mck] {
         overflow: hidden;

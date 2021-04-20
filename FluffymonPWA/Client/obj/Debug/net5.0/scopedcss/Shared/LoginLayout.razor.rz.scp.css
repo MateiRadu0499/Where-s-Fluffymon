@@ -6,8 +6,7 @@
 
 .main[b-ku39ykhpf3] {
     flex: 1;
-    height: 120vh;
-    background-color: #B8B8FF;
+    background-image: linear-gradient(45deg, #22181C, #312F2F, #84DCCF);
     background-position: center;
     background-size: cover;
 }

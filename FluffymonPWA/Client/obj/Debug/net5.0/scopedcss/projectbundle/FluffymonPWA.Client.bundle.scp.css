@@ -1,14 +1,123 @@
 @import '';
 
-/* /Pages/Profile.razor.rz.scp.css */
+/* /Pages/AddPost.razor.rz.scp.css */
+/* /Pages/Index.razor.rz.scp.css */
+.title[b-1dj8m8b0km] {
+    font-family: Century Gothic;
+    font-size: 10vh;
+    color: #F8F7FF;
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+}
 
-﻿body[b-mk2n0tthi3] {
+.buttons[b-1dj8m8b0km] {
+    margin-top: 50px;
+    position: absolute;
+    color: #858AE3;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#login[b-1dj8m8b0km] {
+    font-family: Century Gothic;
+    width: 30vh;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #858AE3;
+    text-decoration: none;
+}
+
+#register[b-1dj8m8b0km] {
+    font-family: Century Gothic;
+    width: 30vh;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #858AE3;
+    text-decoration: none;
+}
+/* /Pages/Login.razor.rz.scp.css */
+.login-container[b-jku4x01omn] {
+    width: 100%;
+    padding-bottom: 420px;
+    background-image: linear-gradient(45deg, #22181C, #312F2F, #84DCCF);
+}
+
+.login-container .form-container[b-jku4x01omn] {
+    display: table;
+    width: 550px;
+    height: 325px;
+    margin: 0 auto;
+    margin-top: 10%
+}
+
+.login-container form[b-jku4x01omn] {
+    width: 450px;
+    display: table-cell;
+    background-color: #54988E;
+    padding: 50px 50px;
+    color: #858AE3
+}
+
+
+.login-container h2[b-jku4x01omn] {
+    text-align: center;
+    margin-top: 5%;
+    color: #F8F7FF
+}
+
+.login-container form .form-control[b-jku4x01omn] {
+    border: none;
+    background: transparent;
+    box-shadow: none;
+    outline: none;
+    border-bottom: 1px solid #dfe7f1;
+    border-radius: 0;
+    text-indent: 0px;
+    height: 50px;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.login-container form .linko[b-jku4x01omn] {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #F8F7FF;
+    opacity: 0.8;
+    text-decoration: none
+}
+
+.login-container form btn btn-primary btn-block[b-jku4x01omn] {
+    color: #84DCCF;
+}
+
+h1[b-jku4x01omn] {
+    font-family: Century Gothic;
+    font-size: 60px;
+    line-height: 22px;
+    font-weight: 200;
+    color: #F8F7FF;
+    padding: 80px 0px 20px 0px;
+    margin: 0
+}
+/* /Pages/Profile.razor.rz.scp.css */
+body[b-mk2n0tthi3] {
 }
 /* /Pages/Register.razor.rz.scp.css */
 .register-container[b-ojt73cahh1] {
     width: 100%;
     padding-bottom: 420px;
+    background-image: linear-gradient(45deg, #22181C, #312F2F, #84DCCF);
 }
+
+.all[b-ojt73cahh1] {
+    background-image: linear-gradient(45deg, #22181C, #312F2F, #84DCCF);
+}
+
 
 .register-container .form-container[b-ojt73cahh1] {
     display: table;
@@ -21,9 +130,9 @@
 .register-container form[b-ojt73cahh1] {
     width: 500px;
     display: table-cell;
-    background-color: #858AE3;
+    background-color: #54988E;
     padding: 20px 40px;
-    color: #858AE3;
+    background-image: linear-gradient(45deg, #22181C, #312F2F, #84DCCF);
     margin-right: 200px;
 }
 
@@ -34,7 +143,8 @@ h3[b-ojt73cahh1] {
     font-weight: 200;
     color: #F8F7FF;
     padding: 80px 0px 20px 0px;
-    margin: 0
+    margin: 0 ;
+    background-image: linear-gradient(45deg, #22181C, #312F2F, #84DCCF);
 }
 
 .register-cointainer form .form-control[b-ojt73cahh1] {
@@ -59,6 +169,75 @@ h3[b-ojt73cahh1] {
     opacity: 0.8;
     text-decoration: none
 }
+/* /Shared/FormLayout.razor.rz.scp.css */
+.page[b-ou7r2sdip1] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.main[b-ou7r2sdip1] {
+    flex: 1;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpixelz.cc%2Fwp-content%2Fuploads%2F2016%2F11%2Fuhd-8k-wallpaper-the-secret-life-of-pets.jpg&f=1&nofb=1");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.sidebar[b-ou7r2sdip1] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-ou7r2sdip1] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row a:first-child[b-ou7r2sdip1] {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-ou7r2sdip1] {
+        display: none;
+    }
+
+    .top-row.auth[b-ou7r2sdip1] {
+        justify-content: space-between;
+    }
+
+    .top-row a[b-ou7r2sdip1], .top-row .btn-link[b-ou7r2sdip1] {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 300px) {
+    .page[b-ou7r2sdip1] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-ou7r2sdip1] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-ou7r2sdip1] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .main > div[b-ou7r2sdip1] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
 /* /Shared/LoginLayout.razor.rz.scp.css */
 .page[b-ku39ykhpf3] {
     display: flex;
@@ -68,8 +247,7 @@ h3[b-ojt73cahh1] {
 
 .main[b-ku39ykhpf3] {
     flex: 1;
-    height: 120vh;
-    background-color: #B8B8FF;
+    background-image: linear-gradient(45deg, #22181C, #312F2F, #84DCCF);
     background-position: center;
     background-size: cover;
 }
@@ -82,25 +260,27 @@ h3[b-ojt73cahh1] {
 
 .main[b-68pdl77mck] {
     flex: 1;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://i.imgur.com/nf9IQ0Y.jpeg");
     height: 100vh;
     background-size: cover;
     background-position: center;
 }
-
 
 .sidebar[b-68pdl77mck] {
     background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
 }
 
 .top-row[b-68pdl77mck] {
-    background-color: #f7f7f7;
     border-bottom: 1px solid #d6d5d5;
     justify-content: flex-end;
     height: 3.5rem;
     display: flex;
     align-items: center;
 }
+
+    .top-row[b-68pdl77mck]  a, .top-row .btn-link[b-68pdl77mck] {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+    }
 
     .top-row a:first-child[b-68pdl77mck] {
         overflow: hidden;

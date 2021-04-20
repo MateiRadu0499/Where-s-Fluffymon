@@ -4,6 +4,7 @@ using FluffymonPWA.Server.Models;
 using System.Threading.Tasks;
 using System.Security.Cryptography;
 using System.Text;
+using System;
 
 namespace FluffymonPWA.Server.Controllers
 {
@@ -39,6 +40,7 @@ namespace FluffymonPWA.Server.Controllers
         [HttpPost]
         public async Task<ActionResult<User>> RegisterUser(User userRegister)
         {
+            Console.WriteLine("Register Post");
             var display = _context.Users.Where(u => u.Username == userRegister.Username || u.Email == userRegister.Email).FirstOrDefault();
 
             if (display != null)
@@ -50,9 +52,9 @@ namespace FluffymonPWA.Server.Controllers
             {
                 userRegister.Password = ComputeSha256Hash(userRegister.Password);
                 _context.Users.Add(userRegister);
-                //await _context.SaveChangesAsync();
+                await _context.SaveChangesAsync();
                 string Status = "Registered successfully.";
-                return Ok();
+                return Ok(Status);
             }
         }
     }
