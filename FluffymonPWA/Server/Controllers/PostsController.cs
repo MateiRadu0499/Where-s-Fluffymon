@@ -7,7 +7,7 @@ using System;
 
 namespace FluffymonPWA.Server.Controllers
 {
-    [Route("api/v1/[controller]")]
+    [Route("api/v1/post")]
     [ApiController]
     public class PostsController : Controller
     {
@@ -17,14 +17,25 @@ namespace FluffymonPWA.Server.Controllers
             _context = context;
         }
 
-        [HttpGet("all")]
+        [HttpGet]
         public async Task<ActionResult<IEnumerable<Post>>> GetPosts()
         {
             Console.WriteLine("Posts Get");
             return await _context.Posts.ToListAsync();
         }
 
-        [HttpPost("makepost")]
+        [HttpGet("{id}", Name ="GetPostById")]
+        public async Task<ActionResult<Post>> GetPostById(int id)
+        {
+            var post = await _context.Posts.FindAsync(id);
+            if(post == null)
+            {
+                return NotFound();
+            }
+
+            return post;
+        }
+        [HttpPost]
         public async Task<ActionResult<Post>> MakePost(Post post)
         {
             Console.WriteLine("Posts Post");
@@ -32,6 +43,21 @@ namespace FluffymonPWA.Server.Controllers
             await _context.SaveChangesAsync();
             string Status = "Post created successfully.";
             return Ok(Status);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeletePost(int id)
+        {
+            var post = await _context.Posts.FindAsync(id);
+            if(post == null)
+            {
+                return NotFound();
+            }
+
+            _context.Posts.Remove(post);
+            await _context.SaveChangesAsync();
+
+            return Ok();
         }
     }
 }

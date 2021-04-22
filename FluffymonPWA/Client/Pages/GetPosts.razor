@@ -25,7 +25,7 @@ else
                 <tr>
                     <td>@post.Title</td>
                     <td>@post.Description</td>
-                    <td>@post.Reward</td>
+                    <td>@post.Reward.ToString()</td>
                     <td>@post.Date</td>
                 </tr>
             }
@@ -39,7 +39,7 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        posts = await Http.GetFromJsonAsync<Post[]>("/api/v1/all");
+        posts = await Http.GetFromJsonAsync<Post[]>("/api/v1/post");
     }
 
 }

@@ -114,8 +114,9 @@ using FluffymonPWA.Client.Models;
 
     protected async Task MakePost()
     {
-        HttpResponseMessage response = await 
-            Http.PostAsJsonAsync<Post>("/api/v1/makepost", post);
+        post.Date = DateTime.Now;
+        HttpResponseMessage response = await
+            Http.PostAsJsonAsync<Post>("/api/v1/post", post);
         if (response.StatusCode.ToString() == "OK")
         {
             res = "Post created succesfully";

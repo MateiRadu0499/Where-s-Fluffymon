@@ -1293,7 +1293,6 @@ C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Client\obj\D
 C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Client\obj\Debug\net5.0\build-gz\YzG5IHzN.gz
 C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Client\obj\Debug\net5.0\build-gz\nC1Iy8Rh.gz
 C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Client\obj\Debug\net5.0\build-gz\5PiLW++1.gz
-C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Client\obj\Debug\net5.0\scopedcss\Pages\AddPost.razor.rz.scp.css
 C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Client\obj\Debug\net5.0\scopedcss\Pages\Profile.razor.rz.scp.css
 C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Client\obj\Debug\net5.0\scopedcss\Pages\Register.razor.rz.scp.css
 C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Client\obj\Debug\net5.0\scopedcss\Shared\FormLayout.razor.rz.scp.css

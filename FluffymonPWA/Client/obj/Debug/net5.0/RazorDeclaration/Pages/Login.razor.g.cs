@@ -129,7 +129,7 @@ using System.Timers;
 
             timer.Elapsed += (sender, args) =>
             {
-                NavManager.NavigateTo("/login", true);
+                NavManager.NavigateTo("/profile", true);
             };
 
             timer.AutoReset = true;

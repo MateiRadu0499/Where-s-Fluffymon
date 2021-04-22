@@ -105,7 +105,7 @@ using FluffymonPWA.Client.Models;
 
     protected override async Task OnInitializedAsync()
     {
-        posts = await Http.GetFromJsonAsync<Post[]>("/api/v1/all");
+        posts = await Http.GetFromJsonAsync<Post[]>("/api/v1/post");
     }
 
 

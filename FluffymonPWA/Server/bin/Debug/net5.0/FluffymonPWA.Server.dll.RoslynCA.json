@@ -5,153 +5,12 @@
     {
       "tool": {
         "name": "Microsoft (R) Visual C# Compiler",
-        "version": "3.8.0.0",
-        "fileVersion": "3.8.0-5.20604.10 (9ed4b774)",
-        "semanticVersion": "3.8.0",
+        "version": "3.9.0.0",
+        "fileVersion": "3.9.0-4.21080.10 (3f54551d)",
+        "semanticVersion": "3.9.0",
         "language": "en-US"
       },
       "results": [
-        {
-          "ruleId": "CS0161",
-          "level": "error",
-          "message": "'PostsController.GetPosts()': not all code paths return a value",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/Matei%20Radu/OneDrive/Desktop/Where-s-Fluffymon/FluffymonPWA/Server/Controllers/PostsController.cs",
-                "region": {
-                  "startLine": 20,
-                  "startColumn": 29,
-                  "endLine": 20,
-                  "endColumn": 37
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "CS1061",
-          "level": "error",
-          "message": "'DataContext' does not contain a definition for 'SaveChangesAsync' and no accessible extension method 'SaveChangesAsync' accepting a first argument of type 'DataContext' could be found (are you missing a using directive or an assembly reference?)",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/Matei%20Radu/OneDrive/Desktop/Where-s-Fluffymon/FluffymonPWA/Server/Controllers/RegisterController.cs",
-                "region": {
-                  "startLine": 53,
-                  "startColumn": 32,
-                  "endLine": 53,
-                  "endColumn": 48
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "CS0219",
-          "level": "warning",
-          "message": "The variable 'Status' is assigned but its value is never used",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/Matei%20Radu/OneDrive/Desktop/Where-s-Fluffymon/FluffymonPWA/Server/Controllers/RegisterController.cs",
-                "region": {
-                  "startLine": 54,
-                  "startColumn": 24,
-                  "endLine": 54,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 3
-          }
-        },
-        {
-          "ruleId": "CS0219",
-          "level": "warning",
-          "message": "The variable 'Status' is assigned but its value is never used",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/Matei%20Radu/OneDrive/Desktop/Where-s-Fluffymon/FluffymonPWA/Server/Controllers/LoginController.cs",
-                "region": {
-                  "startLine": 46,
-                  "startColumn": 24,
-                  "endLine": 46,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 3
-          }
-        },
-        {
-          "ruleId": "S125",
-          "level": "warning",
-          "message": "Remove this commented out code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/Matei%20Radu/OneDrive/Desktop/Where-s-Fluffymon/FluffymonPWA/Server/Models/DataContext.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 1,
-                  "endLine": 8,
-                  "endColumn": 10
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S4487",
-          "level": "warning",
-          "message": "Remove this unread private field '_context' or refactor the code to use its value.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/Matei%20Radu/OneDrive/Desktop/Where-s-Fluffymon/FluffymonPWA/Server/Controllers/PostsController.cs",
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 38,
-                  "endLine": 13,
-                  "endColumn": 46
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S4487",
-          "level": "warning",
-          "message": "Remove this unread private field '_logger' or refactor the code to use its value.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/Matei%20Radu/OneDrive/Desktop/Where-s-Fluffymon/FluffymonPWA/Server/Pages/Error.cshtml.cs",
-                "region": {
-                  "startLine": 20,
-                  "startColumn": 46,
-                  "endLine": 20,
-                  "endColumn": 53
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
         {
           "ruleId": "S4487",
           "level": "warning",
@@ -161,9 +20,9 @@
               "resultFile": {
                 "uri": "file:///C:/Users/Matei%20Radu/OneDrive/Desktop/Where-s-Fluffymon/FluffymonPWA/Server/Controllers/WeatherForecastController.cs",
                 "region": {
-                  "startLine": 20,
+                  "startLine": 19,
                   "startColumn": 61,
-                  "endLine": 20,
+                  "endLine": 19,
                   "endColumn": 68
                 }
               }
@@ -195,18 +54,18 @@
           }
         },
         {
-          "ruleId": "S1186",
+          "ruleId": "S4487",
           "level": "warning",
-          "message": "Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",
+          "message": "Remove this unread private field '_logger' or refactor the code to use its value.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/Matei%20Radu/OneDrive/Desktop/Where-s-Fluffymon/FluffymonPWA/Server/Controllers/PostsController.cs",
+                "uri": "file:///C:/Users/Matei%20Radu/OneDrive/Desktop/Where-s-Fluffymon/FluffymonPWA/Server/Pages/Error.cshtml.cs",
                 "region": {
-                  "startLine": 20,
-                  "startColumn": 29,
-                  "endLine": 20,
-                  "endColumn": 37
+                  "startLine": 16,
+                  "startColumn": 46,
+                  "endLine": 16,
+                  "endColumn": 53
                 }
               }
             }
@@ -224,9 +83,9 @@
               "resultFile": {
                 "uri": "file:///C:/Users/Matei%20Radu/OneDrive/Desktop/Where-s-Fluffymon/FluffymonPWA/Server/Controllers/WeatherForecastController.cs",
                 "region": {
-                  "startLine": 30,
+                  "startLine": 29,
                   "startColumn": 23,
-                  "endLine": 30,
+                  "endLine": 29,
                   "endColumn": 35
                 }
               }
@@ -245,52 +104,10 @@
               "resultFile": {
                 "uri": "file:///C:/Users/Matei%20Radu/OneDrive/Desktop/Where-s-Fluffymon/FluffymonPWA/Server/Controllers/LoginController.cs",
                 "region": {
-                  "startLine": 43,
+                  "startLine": 44,
                   "startColumn": 133,
-                  "endLine": 43,
+                  "endLine": 44,
                   "endColumn": 138
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1481",
-          "level": "warning",
-          "message": "Remove the unused local variable 'Status'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/Matei%20Radu/OneDrive/Desktop/Where-s-Fluffymon/FluffymonPWA/Server/Controllers/LoginController.cs",
-                "region": {
-                  "startLine": 46,
-                  "startColumn": 24,
-                  "endLine": 46,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1481",
-          "level": "warning",
-          "message": "Remove the unused local variable 'Status'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/Matei%20Radu/OneDrive/Desktop/Where-s-Fluffymon/FluffymonPWA/Server/Controllers/RegisterController.cs",
-                "region": {
-                  "startLine": 54,
-                  "startColumn": 24,
-                  "endLine": 54,
-                  "endColumn": 30
                 }
               }
             }
@@ -301,45 +118,6 @@
         }
       ],
       "rules": {
-        "CS0161": {
-          "id": "CS0161",
-          "defaultLevel": "error",
-          "properties": {
-            "category": "Compiler",
-            "isEnabledByDefault": true,
-            "tags": [
-              "Compiler",
-              "Telemetry",
-              "NotConfigurable"
-            ]
-          }
-        },
-        "CS0219": {
-          "id": "CS0219",
-          "shortDescription": "Variable is assigned but its value is never used",
-          "defaultLevel": "warning",
-          "properties": {
-            "category": "Compiler",
-            "isEnabledByDefault": true,
-            "tags": [
-              "Compiler",
-              "Telemetry"
-            ]
-          }
-        },
-        "CS1061": {
-          "id": "CS1061",
-          "defaultLevel": "error",
-          "properties": {
-            "category": "Compiler",
-            "isEnabledByDefault": true,
-            "tags": [
-              "Compiler",
-              "Telemetry",
-              "NotConfigurable"
-            ]
-          }
-        },
         "S1118": {
           "id": "S1118",
           "shortDescription": "Utility classes should not have public constructors",
@@ -363,57 +141,6 @@
           "fullDescription": "Redundant Boolean literals should be removed from expressions to improve readability.",
           "defaultLevel": "warning",
           "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1125",
-          "properties": {
-            "category": "Minor Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "SonarWay",
-              "MainSourceScope",
-              "TestSourceScope"
-            ]
-          }
-        },
-        "S1186": {
-          "id": "S1186",
-          "shortDescription": "Methods should not be empty",
-          "fullDescription": "There are several reasons for a method not to have a method body:",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1186",
-          "properties": {
-            "category": "Critical Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "SonarWay",
-              "MainSourceScope",
-              "TestSourceScope"
-            ]
-          }
-        },
-        "S125": {
-          "id": "S125",
-          "shortDescription": "Sections of code should not be commented out",
-          "fullDescription": "Programmers should not comment out code as it bloats programs and reduces readability.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
-          "properties": {
-            "category": "Major Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "SonarWay",
-              "MainSourceScope",
-              "TestSourceScope"
-            ]
-          }
-        },
-        "S1481": {
-          "id": "S1481",
-          "shortDescription": "Unused local variables should be removed",
-          "fullDescription": "If a local variable is declared but not used, it is dead code and should be removed. Doing so will improve maintainability because developers will not wonder what the variable is used for.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1481",
           "properties": {
             "category": "Minor Code Smell",
             "isEnabledByDefault": true,
