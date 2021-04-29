@@ -2269,6 +2269,9 @@
         }
       },
       "FluffymonPWA.Shared/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.5"
+        },
         "runtime": {
           "FluffymonPWA.Shared.dll": {}
         },

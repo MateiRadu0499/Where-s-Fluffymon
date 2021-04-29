@@ -1,15 +1,3 @@
-C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Shared\bin\Debug\net5.0\FluffymonPWA.Shared.deps.json
-C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Shared\bin\Debug\net5.0\FluffymonPWA.Shared.dll
-C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Shared\bin\Debug\net5.0\ref\FluffymonPWA.Shared.dll
-C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Shared\bin\Debug\net5.0\FluffymonPWA.Shared.pdb
-C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Shared\obj\Debug\net5.0\FluffymonPWA.Shared.csprojAssemblyReference.cache
-C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Shared\obj\Debug\net5.0\FluffymonPWA.Shared.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Shared\obj\Debug\net5.0\FluffymonPWA.Shared.AssemblyInfoInputs.cache
-C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Shared\obj\Debug\net5.0\FluffymonPWA.Shared.AssemblyInfo.cs
-C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Shared\obj\Debug\net5.0\FluffymonPWA.Shared.csproj.CoreCompileInputs.cache
-C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Shared\obj\Debug\net5.0\FluffymonPWA.Shared.dll
-C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Shared\obj\Debug\net5.0\ref\FluffymonPWA.Shared.dll
-C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Shared\obj\Debug\net5.0\FluffymonPWA.Shared.pdb
 D:\Dot Net Speciale\Where-s-Fluffymon\FluffymonPWA\Shared\bin\Debug\net5.0\FluffymonPWA.Shared.deps.json
 D:\Dot Net Speciale\Where-s-Fluffymon\FluffymonPWA\Shared\bin\Debug\net5.0\FluffymonPWA.Shared.dll
 D:\Dot Net Speciale\Where-s-Fluffymon\FluffymonPWA\Shared\bin\Debug\net5.0\ref\FluffymonPWA.Shared.dll
@@ -22,3 +10,15 @@ D:\Dot Net Speciale\Where-s-Fluffymon\FluffymonPWA\Shared\obj\Debug\net5.0\Fluff
 D:\Dot Net Speciale\Where-s-Fluffymon\FluffymonPWA\Shared\obj\Debug\net5.0\FluffymonPWA.Shared.dll
 D:\Dot Net Speciale\Where-s-Fluffymon\FluffymonPWA\Shared\obj\Debug\net5.0\ref\FluffymonPWA.Shared.dll
 D:\Dot Net Speciale\Where-s-Fluffymon\FluffymonPWA\Shared\obj\Debug\net5.0\FluffymonPWA.Shared.pdb
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Shared\bin\Debug\net5.0\FluffymonPWA.Shared.deps.json
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Shared\bin\Debug\net5.0\FluffymonPWA.Shared.dll
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Shared\bin\Debug\net5.0\ref\FluffymonPWA.Shared.dll
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Shared\bin\Debug\net5.0\FluffymonPWA.Shared.pdb
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Shared\obj\Debug\net5.0\FluffymonPWA.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Shared\obj\Debug\net5.0\FluffymonPWA.Shared.AssemblyInfoInputs.cache
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Shared\obj\Debug\net5.0\FluffymonPWA.Shared.AssemblyInfo.cs
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Shared\obj\Debug\net5.0\FluffymonPWA.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Shared\obj\Debug\net5.0\FluffymonPWA.Shared.dll
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Shared\obj\Debug\net5.0\ref\FluffymonPWA.Shared.dll
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Shared\obj\Debug\net5.0\FluffymonPWA.Shared.pdb
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Shared\obj\Debug\net5.0\FluffymonPWA.Shared.csprojAssemblyReference.cache

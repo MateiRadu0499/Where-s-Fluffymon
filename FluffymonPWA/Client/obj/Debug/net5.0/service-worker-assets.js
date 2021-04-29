@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-Z6Ixrj0Xo1E4uEN4VE51yg4Q10fPxmBvV9gaC\/AgLjg=",
+      "hash": "sha256-U5Sl+vWg2sFYjMEzAMZrsZEpit1jIairDoGe9yRq0uQ=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -901,19 +901,19 @@
       "url": "_framework\/dotnet.5.0.3.js"
     },
     {
-      "hash": "sha256-H\/hZlUVuep+u5i+kCKVRbpc2xTswWza2kSW1l2HfKWo=",
+      "hash": "sha256-mVAzpL5sykuDBsHKjhgPV4vxnWTnu0ZZ0BjvMqdbn8Y=",
       "url": "_framework\/FluffymonPWA.Shared.dll"
     },
     {
-      "hash": "sha256-Hfp+yid9XufomL31k8qyKtM2G9sc5gt0ixvxaeM9y+E=",
+      "hash": "sha256-us3syFByZPuInMzKLz7xPpBaI4V8dvYMyeSLt0LqiPE=",
       "url": "_framework\/FluffymonPWA.Shared.pdb"
     },
     {
-      "hash": "sha256-3PNwTAh46j0oe7U4qFXQbZhL0ESM2yZ6s6y3gmo6R4k=",
+      "hash": "sha256-uZQLMJgj8asdyNhTIJGS56b99GnGZ7NbSVprI5iExDE=",
       "url": "_framework\/FluffymonPWA.Client.dll"
     },
     {
-      "hash": "sha256-cUSCT6ijt3GWebgPav0Ep7BzxOneYWM0CkDrXFuTyp0=",
+      "hash": "sha256-qjUzGD\/7i2mqfYfDIH4u6WfVnXEN97HjSVZotQO4X28=",
       "url": "_framework\/FluffymonPWA.Client.pdb"
     },
     {
@@ -1817,7 +1817,7 @@
       "url": "_framework\/dotnet.5.0.3.js.gz"
     },
     {
-      "hash": "sha256-QJ\/IOh0h5SJL+R+PXPMvVmmihW1F4R70uqj0IyIWrE8=",
+      "hash": "sha256-A8Z2KX4vs+lrui5l6xe3TwhP8wgYy4K\/4uLM7zIjLJ8=",
       "url": "_framework\/FluffymonPWA.Shared.dll.gz"
     },
     {
@@ -1885,13 +1885,13 @@
       "url": "manifest.json"
     },
     {
-      "hash": "sha256-G4a9yih9wPn0mChFA6c4GMwrfaxsFU08cHQxXUt1cAo=",
+      "hash": "sha256-vPJaVpHQbPPmNdKEW5O8By8lESwpaYJk0Dnh7FGeWf4=",
       "url": "FluffymonPWA.Client.styles.css"
     },
     {
-      "hash": "sha256-l5eyAFqeecWA6ubwrXvYVspandppiSN0KjtRiSENaEc=",
+      "hash": "sha256-6zG4Uqnh3saojcxBqlPNkVi6srJJHXPgv0z2yInBqps=",
       "url": "FluffymonPWA.Client.bundle.scp.css"
     }
   ],
-  "version": "FLqFhn67"
+  "version": "jAdUyDFa"
 };

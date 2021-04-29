@@ -94,7 +94,6 @@ using FluffymonPWA.Client.Models;
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
             __builder.OpenElement(0, "div");
-            __builder.AddAttribute(1, "b-mk2n0tthi3");
 #nullable restore
 #line 8 "C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Client\Pages\Profile.razor"
      if (user == null)
@@ -103,7 +102,7 @@ using FluffymonPWA.Client.Models;
 #line default
 #line hidden
 #nullable disable
-            __builder.AddMarkupContent(2, "<h1 b-mk2n0tthi3>Just a second</h1>");
+            __builder.AddMarkupContent(1, "<h1>Just a second</h1>");
 #nullable restore
 #line 11 "C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Client\Pages\Profile.razor"
     }
@@ -113,20 +112,16 @@ using FluffymonPWA.Client.Models;
 #line default
 #line hidden
 #nullable disable
-            __builder.OpenElement(3, "div");
-            __builder.AddAttribute(4, "class", "login-container");
-            __builder.AddAttribute(5, "b-mk2n0tthi3");
-            __builder.OpenElement(6, "div");
-            __builder.AddAttribute(7, "class", "form-container");
-            __builder.AddAttribute(8, "b-mk2n0tthi3");
-            __builder.OpenElement(9, "form");
-            __builder.AddAttribute(10, "method", "post");
-            __builder.AddAttribute(11, "b-mk2n0tthi3");
-            __builder.AddMarkupContent(12, "<h5 class=\"text-center\" b-mk2n0tthi3>Profile</h5>\r\n                    ");
-            __builder.OpenElement(13, "h2");
-            __builder.AddAttribute(14, "b-mk2n0tthi3");
-            __builder.AddContent(15, "Username: ");
-            __builder.AddContent(16, 
+            __builder.OpenElement(2, "div");
+            __builder.AddAttribute(3, "class", "login-container");
+            __builder.OpenElement(4, "div");
+            __builder.AddAttribute(5, "class", "form-container");
+            __builder.OpenElement(6, "form");
+            __builder.AddAttribute(7, "method", "post");
+            __builder.AddMarkupContent(8, "<h5 class=\"text-center\">Profile</h5>\r\n                    ");
+            __builder.OpenElement(9, "h2");
+            __builder.AddContent(10, "Username: ");
+            __builder.AddContent(11, 
 #nullable restore
 #line 18 "C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Client\Pages\Profile.razor"
                                    user.Username
@@ -136,11 +131,10 @@ using FluffymonPWA.Client.Models;
 #nullable disable
             );
             __builder.CloseElement();
-            __builder.AddMarkupContent(17, "\r\n                    ");
-            __builder.OpenElement(18, "h2");
-            __builder.AddAttribute(19, "b-mk2n0tthi3");
-            __builder.AddContent(20, "First Name: ");
-            __builder.AddContent(21, 
+            __builder.AddMarkupContent(12, "\r\n                    ");
+            __builder.OpenElement(13, "h2");
+            __builder.AddContent(14, "First Name: ");
+            __builder.AddContent(15, 
 #nullable restore
 #line 19 "C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Client\Pages\Profile.razor"
                                      user.FirstName
@@ -150,11 +144,10 @@ using FluffymonPWA.Client.Models;
 #nullable disable
             );
             __builder.CloseElement();
-            __builder.AddMarkupContent(22, "\r\n                    ");
-            __builder.OpenElement(23, "h2");
-            __builder.AddAttribute(24, "b-mk2n0tthi3");
-            __builder.AddContent(25, "Last Name: ");
-            __builder.AddContent(26, 
+            __builder.AddMarkupContent(16, "\r\n                    ");
+            __builder.OpenElement(17, "h2");
+            __builder.AddContent(18, "Last Name: ");
+            __builder.AddContent(19, 
 #nullable restore
 #line 20 "C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Client\Pages\Profile.razor"
                                     user.LastName
@@ -164,11 +157,10 @@ using FluffymonPWA.Client.Models;
 #nullable disable
             );
             __builder.CloseElement();
-            __builder.AddMarkupContent(27, "\r\n                    ");
-            __builder.OpenElement(28, "h2");
-            __builder.AddAttribute(29, "b-mk2n0tthi3");
-            __builder.AddContent(30, "Phone: ");
-            __builder.AddContent(31, 
+            __builder.AddMarkupContent(20, "\r\n                    ");
+            __builder.OpenElement(21, "h2");
+            __builder.AddContent(22, "Phone: ");
+            __builder.AddContent(23, 
 #nullable restore
 #line 21 "C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Client\Pages\Profile.razor"
                                 user.PhoneNumber
@@ -178,11 +170,10 @@ using FluffymonPWA.Client.Models;
 #nullable disable
             );
             __builder.CloseElement();
-            __builder.AddMarkupContent(32, "\r\n                    ");
-            __builder.OpenElement(33, "h2");
-            __builder.AddAttribute(34, "b-mk2n0tthi3");
-            __builder.AddContent(35, "Phone: ");
-            __builder.AddContent(36, 
+            __builder.AddMarkupContent(24, "\r\n                    ");
+            __builder.OpenElement(25, "h2");
+            __builder.AddContent(26, "Phone: ");
+            __builder.AddContent(27, 
 #nullable restore
 #line 22 "C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Client\Pages\Profile.razor"
                                 user.Email
