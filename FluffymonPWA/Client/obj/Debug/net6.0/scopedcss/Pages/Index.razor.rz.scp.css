@@ -1,0 +1,36 @@
+﻿.title[b-1dj8m8b0km] {
+    font-family: Century Gothic;
+    font-size: 10vh;
+    color: #F8F7FF;
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.buttons[b-1dj8m8b0km] {
+    margin-top: 50px;
+    position: absolute;
+    color: #858AE3;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#login[b-1dj8m8b0km] {
+    font-family: Century Gothic;
+    width: 30vh;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #858AE3;
+    text-decoration: none;
+}
+
+#register[b-1dj8m8b0km] {
+    font-family: Century Gothic;
+    width: 30vh;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #858AE3;
+    text-decoration: none;
+}

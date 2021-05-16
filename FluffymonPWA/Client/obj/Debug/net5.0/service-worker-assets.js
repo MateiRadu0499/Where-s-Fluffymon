@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-U5Sl+vWg2sFYjMEzAMZrsZEpit1jIairDoGe9yRq0uQ=",
+      "hash": "sha256-uLaWUeu6rtKyXwmGbvhKBw+p1+Nwd8MK5fTakkwMnlw=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -901,19 +901,19 @@
       "url": "_framework\/dotnet.5.0.3.js"
     },
     {
-      "hash": "sha256-mVAzpL5sykuDBsHKjhgPV4vxnWTnu0ZZ0BjvMqdbn8Y=",
+      "hash": "sha256-h3kJFEVzLBxklFfhgIxs04lCYr7pAKhTDbeAGti\/hCg=",
       "url": "_framework\/FluffymonPWA.Shared.dll"
     },
     {
-      "hash": "sha256-us3syFByZPuInMzKLz7xPpBaI4V8dvYMyeSLt0LqiPE=",
+      "hash": "sha256-jZRys9TfIQy1bxpdsCHA2jWWxsrfi2rwweoisPeFfXI=",
       "url": "_framework\/FluffymonPWA.Shared.pdb"
     },
     {
-      "hash": "sha256-uZQLMJgj8asdyNhTIJGS56b99GnGZ7NbSVprI5iExDE=",
+      "hash": "sha256-eZv4ugW6Q6eo6gbkpKw1oyqHIfoHy2oukcXaH\/rDQp4=",
       "url": "_framework\/FluffymonPWA.Client.dll"
     },
     {
-      "hash": "sha256-qjUzGD\/7i2mqfYfDIH4u6WfVnXEN97HjSVZotQO4X28=",
+      "hash": "sha256-1wox+4MDYGReOSt3CZF9MXbEhhQIZW9ZpS+DYKflJQQ=",
       "url": "_framework\/FluffymonPWA.Client.pdb"
     },
     {
@@ -1817,7 +1817,7 @@
       "url": "_framework\/dotnet.5.0.3.js.gz"
     },
     {
-      "hash": "sha256-A8Z2KX4vs+lrui5l6xe3TwhP8wgYy4K\/4uLM7zIjLJ8=",
+      "hash": "sha256-8Jz4LSB\/vmczKA\/7HRa70+51XT2l\/GG8eChOMdk1Wgc=",
       "url": "_framework\/FluffymonPWA.Shared.dll.gz"
     },
     {
@@ -1893,5 +1893,5 @@
       "url": "FluffymonPWA.Client.bundle.scp.css"
     }
   ],
-  "version": "jAdUyDFa"
+  "version": "EodPURnh"
 };

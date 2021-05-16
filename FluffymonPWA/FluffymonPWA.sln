@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluffymonPWA.Client", "Clie
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluffymonPWA.Shared", "Shared\FluffymonPWA.Shared.csproj", "{A086CD1B-C989-4F49-B121-FA93986D1565}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluffymonPWA.UnitTest", "FluffymonPWA.UnitTest\FluffymonPWA.UnitTest.csproj", "{297FE95E-5C11-4CA7-8B83-BB472A2D8CBE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A086CD1B-C989-4F49-B121-FA93986D1565}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A086CD1B-C989-4F49-B121-FA93986D1565}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A086CD1B-C989-4F49-B121-FA93986D1565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{297FE95E-5C11-4CA7-8B83-BB472A2D8CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{297FE95E-5C11-4CA7-8B83-BB472A2D8CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{297FE95E-5C11-4CA7-8B83-BB472A2D8CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{297FE95E-5C11-4CA7-8B83-BB472A2D8CBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

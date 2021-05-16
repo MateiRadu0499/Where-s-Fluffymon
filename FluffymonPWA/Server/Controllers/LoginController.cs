@@ -3,7 +3,6 @@ using System.Linq;
 using System.Text;
 using System.Security.Cryptography;
 using FluffymonPWA.Server.Models;
-using System;
 
 namespace FluffymonPWA.Server.Controllers
 {
@@ -39,9 +38,8 @@ namespace FluffymonPWA.Server.Controllers
         [HttpPost]
         public ActionResult LoginUser(User userLogin)
         {
-            Console.WriteLine("Login Post");
             string hashedPass = ComputeSha256Hash(userLogin.Password);
-            var display = _context.Users.Where(u => (u.Username == userLogin.Username && u.Password == hashedPass && u.IsDeleted == false)).FirstOrDefault();
+            var display = _context.Users.Where(u => (u.Username == userLogin.Username && u.Password == hashedPass)).FirstOrDefault();
             if (display != null)
             {
                 return Ok(display.Id);

@@ -4,30 +4,39 @@
 @inject Blazored.LocalStorage.ILocalStorageService localStorage
 @using FluffymonPWA.Client.Models
 
-<div>
-    @if (user == null)
-    {
-        <h1>Just a second</h1>
-    }
-    else
-    {
-        <div class="login-container">
-            <div class="form-container">
-                <form method="post">
-                    <h5 class="text-center">Profile</h5>
-                    <h2>Username: @user.Username</h2>
-                    <h2>First Name: @user.FirstName</h2>
-                    <h2>Last Name: @user.LastName</h2>
-                    <h2>Phone: @user.PhoneNumber</h2>
-                    <h2>Phone: @user.Email</h2>
-                </form>
+@if (Id != localId && localId != null)
+{
+    NavManager.NavigateTo("/error");
+}
+else
+{
+    <div>
+        @if (user == null)
+        {
+            <h1>Just a second</h1>
+        }
+        else
+        {
+            <div class="login-container">
+                <div class="form-container">
+                    <form method="post">
+                        <h5 class="text-center">Profile</h5>
+                        <h2>Username: @user.Username</h2>
+                        <h2>First Name: @user.FirstName</h2>
+                        <h2>Last Name: @user.LastName</h2>
+                        <h2>Phone: @user.PhoneNumber</h2>
+                        <h2>Email: @user.Email</h2>
+                    </form>
+                </div>
             </div>
-        </div>
-    }
-</div>
+        }
+    </div>
+}
 
 @code {
+    [Parameter]
     public string Id { get; set; }
+    public string localId { get; set; }
     public string loggedIn { get; set; }
 
     private User user = new User();
@@ -39,8 +48,8 @@
     };
     protected override async Task OnInitializedAsync()
     {
-        Id = await localStorage.GetItemAsStringAsync("id");
+        localId = await localStorage.GetItemAsStringAsync("id");
         loggedIn = await localStorage.GetItemAsStringAsync("authenticated");
-        user = await httpClient.GetFromJsonAsync<User>("/api/v1/users/" + Id);
+        user = await httpClient.GetFromJsonAsync<User>("/api/v1/users/" + localId);
     }
 }

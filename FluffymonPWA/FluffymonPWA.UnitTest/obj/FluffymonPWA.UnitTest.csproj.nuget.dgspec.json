@@ -1,0 +1,358 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\FluffymonPWA.UnitTest\\FluffymonPWA.UnitTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Client\\FluffymonPWA.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Client\\FluffymonPWA.Client.csproj",
+        "projectName": "FluffymonPWA.Client",
+        "projectPath": "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Client\\FluffymonPWA.Client.csproj",
+        "packagesPath": "C:\\Users\\Matei Radu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Matei Radu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Shared\\FluffymonPWA.Shared.csproj": {
+                "projectPath": "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Shared\\FluffymonPWA.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Blazored.LocalStorage": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.0-preview.3.21201.13, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0-preview.3.21201.13, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[6.0.0-preview.3.21201.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
+              "version": "[6.0.0-preview.3.21201.4, 6.0.0-preview.3.21201.4]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.3.21202.5\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\FluffymonPWA.UnitTest\\FluffymonPWA.UnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\FluffymonPWA.UnitTest\\FluffymonPWA.UnitTest.csproj",
+        "projectName": "FluffymonPWA.UnitTest",
+        "projectPath": "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\FluffymonPWA.UnitTest\\FluffymonPWA.UnitTest.csproj",
+        "packagesPath": "C:\\Users\\Matei Radu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\FluffymonPWA.UnitTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Matei Radu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Client\\FluffymonPWA.Client.csproj": {
+                "projectPath": "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Client\\FluffymonPWA.Client.csproj"
+              },
+              "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Server\\FluffymonPWA.Server.csproj": {
+                "projectPath": "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Server\\FluffymonPWA.Server.csproj"
+              },
+              "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Shared\\FluffymonPWA.Shared.csproj": {
+                "projectPath": "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Shared\\FluffymonPWA.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.8.3, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.3.21202.5\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Server\\FluffymonPWA.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Server\\FluffymonPWA.Server.csproj",
+        "projectName": "FluffymonPWA.Server",
+        "projectPath": "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Server\\FluffymonPWA.Server.csproj",
+        "packagesPath": "C:\\Users\\Matei Radu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Matei Radu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Client\\FluffymonPWA.Client.csproj": {
+                "projectPath": "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Client\\FluffymonPWA.Client.csproj"
+              },
+              "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Shared\\FluffymonPWA.Shared.csproj": {
+                "projectPath": "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Shared\\FluffymonPWA.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[6.0.0-preview.3.21201.13, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0-preview.3.21201.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0-preview.3.21201.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.0-preview.3.21201.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0-preview.3.21201.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.0-preview.3.21201.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.3.21202.5\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Shared\\FluffymonPWA.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Shared\\FluffymonPWA.Shared.csproj",
+        "projectName": "FluffymonPWA.Shared",
+        "projectPath": "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Shared\\FluffymonPWA.Shared.csproj",
+        "packagesPath": "C:\\Users\\Matei Radu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Matei Radu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.3.21202.5\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

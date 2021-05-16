@@ -26,7 +26,9 @@
 </div>
 
 @code {
+    public string localId { get; set; }
     private bool collapseNavMenu = true;
+
 
     private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 
