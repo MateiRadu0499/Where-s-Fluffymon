@@ -28,6 +28,7 @@ namespace FluffymonPWA.Server.Controllers
             {
                 return NotFound();
             }
+            Console.WriteLine(user);
 
             return user;
         }

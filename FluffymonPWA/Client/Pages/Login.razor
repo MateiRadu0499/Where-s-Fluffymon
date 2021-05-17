@@ -41,7 +41,7 @@
 
     private async Task<string> GetIPAddress()
     {
-        var ipAddress = await Http.GetAsync($"http://ipinfo.io/ip");
+        var ipAddress = await Http.GetAsync($"https://ipinfo.io/ip");
         if (ipAddress.IsSuccessStatusCode)
         {
             var json = await ipAddress.Content.ReadAsStringAsync();
@@ -60,15 +60,19 @@
             Console.WriteLine(returnValueId);
             await localStorage.SetItemAsync("authenticated", "True");
             await localStorage.SetItemAsync("id", returnValueId);
-            @*var ip = await GetIPAddress();
+            var ip = await GetIPAddress();
             var responseLocation = await Http.GetAsync($"https://api.ipstack.com/" + ip + "?access_key=aca408b4548c6bb425dfb507a0176317");
             if (responseLocation.IsSuccessStatusCode)
             {
                 var json = await responseLocation.Content.ReadAsStringAsync();
                 var model = new GeoInfoModel();
                 model = JsonConvert.DeserializeObject<GeoInfoModel>(json);
-                Console.WriteLine(model);
-            }*@
+                Console.WriteLine("Got the geolocation");
+            }
+            else
+            {
+                Console.WriteLine("Did not get geolocation");
+            }
 
 
             res = "Logged in succesfully!";
@@ -81,13 +85,13 @@
                 NavManager.NavigateTo("/profile/" + returnValueId, true);
             };
 
-        timer.AutoReset = true;
-        timer.Enabled = true;
-    }
-    else
-    {
-        res = "Username or password incorrect, try again.";
-    }
+            timer.AutoReset = true;
+            timer.Enabled = true;
+        }
+        else
+        {
+            res = "Username or password incorrect, try again.";
+        }
 
-}
+    }
 }

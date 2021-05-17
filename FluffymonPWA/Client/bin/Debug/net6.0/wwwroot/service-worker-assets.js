@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-6m96xd+QF8jl6J6x2hmuERBNfg2FRMh1x6GIjsW5m8k=",
+      "hash": "sha256-vVgT3BXmoxgce538Y8r7xpIodHDywPJoxKgIjDLee\/4=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -929,11 +929,11 @@
       "url": "_framework\/FluffymonPWA.Shared.pdb"
     },
     {
-      "hash": "sha256-tgFkbgQpWNmTDQ+k18fS7hBFQPpxoplZTHe4aG5cEMg=",
+      "hash": "sha256-IhD+bmEMQTHJiQz6G3gjirXp8OHPlE\/OJ8HdE2w4JKI=",
       "url": "_framework\/FluffymonPWA.Client.dll"
     },
     {
-      "hash": "sha256-bZCpL9kGzSTV+6dxO64eejp0ims02ZVRX6RU+8nWnmk=",
+      "hash": "sha256-KNYFeYTyWOodXrJrQsumnvtghniDmIQVpv4IfxGANfY=",
       "url": "_framework\/FluffymonPWA.Client.pdb"
     },
     {
@@ -1933,5 +1933,5 @@
       "url": "FluffymonPWA.Client.bundle.scp.css"
     }
   ],
-  "version": "ZE0AY6zR"
+  "version": "7EEIQ5ac"
 };

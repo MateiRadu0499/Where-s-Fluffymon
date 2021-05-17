@@ -44,8 +44,9 @@ else
 
     HttpClient httpClient = new HttpClient()
     {
-        BaseAddress = new Uri("http://localhost:5001")
+        BaseAddress = new Uri("https://localhost:5001")
     };
+
     protected override async Task OnInitializedAsync()
     {
         localId = await localStorage.GetItemAsStringAsync("id");

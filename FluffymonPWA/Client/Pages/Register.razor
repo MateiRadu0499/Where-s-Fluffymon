@@ -57,6 +57,8 @@
                 </EditForm>
             </form>
         </div>
+        <h3>@goodMessage</h3>
+        <h4>@badMessage</h4>
     </div>
 </div>
 
@@ -67,6 +69,8 @@
     private string res = "";
     private static Timer timer;
     private string ConfirmPassword = "";
+    private string goodMessage = "";
+    private string badMessage = "";
 
     protected async Task RegisterUser()
     {
@@ -79,14 +83,19 @@
         if (response.StatusCode.ToString() == "OK")
         {
             res = "Account created succesfully";
+            badMessage = "";
+            goodMessage = "";
+            goodMessage +=  "Account created succesfully,you will be redirected to Login page.";
         }
         else
         {
             res = "Username already in use.";
+            badMessage = "";
+            badMessage += "Account already exists.";
         }
 
         timer = new System.Timers.Timer();
-        timer.Interval = 6000;
+        timer.Interval = 3000;
 
         timer.Elapsed += (sender, args) =>
         {
