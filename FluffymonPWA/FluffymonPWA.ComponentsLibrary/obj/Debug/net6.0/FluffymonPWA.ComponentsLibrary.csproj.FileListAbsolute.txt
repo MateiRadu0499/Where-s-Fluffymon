@@ -1,0 +1,15 @@
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\FluffymonPWA.ComponentsLibrary\bin\Debug\net6.0\FluffymonPWA.ComponentsLibrary.deps.json
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\FluffymonPWA.ComponentsLibrary\bin\Debug\net6.0\FluffymonPWA.ComponentsLibrary.dll
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\FluffymonPWA.ComponentsLibrary\bin\Debug\net6.0\ref\FluffymonPWA.ComponentsLibrary.dll
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\FluffymonPWA.ComponentsLibrary\bin\Debug\net6.0\FluffymonPWA.ComponentsLibrary.pdb
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\FluffymonPWA.ComponentsLibrary\obj\Debug\net6.0\FluffymonPWA.ComponentsLibrary.csproj.AssemblyReference.cache
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\FluffymonPWA.ComponentsLibrary\obj\Debug\net6.0\FluffymonPWA.ComponentsLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\FluffymonPWA.ComponentsLibrary\obj\Debug\net6.0\FluffymonPWA.ComponentsLibrary.AssemblyInfoInputs.cache
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\FluffymonPWA.ComponentsLibrary\obj\Debug\net6.0\FluffymonPWA.ComponentsLibrary.AssemblyInfo.cs
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\FluffymonPWA.ComponentsLibrary\obj\Debug\net6.0\FluffymonPWA.ComponentsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\FluffymonPWA.ComponentsLibrary\obj\Debug\net6.0\FluffymonPWA.ComponentsLibrary.dll
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\FluffymonPWA.ComponentsLibrary\obj\Debug\net6.0\ref\FluffymonPWA.ComponentsLibrary.dll
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\FluffymonPWA.ComponentsLibrary\obj\Debug\net6.0\FluffymonPWA.ComponentsLibrary.pdb
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\FluffymonPWA.ComponentsLibrary\bin\Debug\net6.0\FluffymonPWA.Shared.dll
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\FluffymonPWA.ComponentsLibrary\bin\Debug\net6.0\FluffymonPWA.Shared.pdb
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\FluffymonPWA.ComponentsLibrary\obj\Debug\net6.0\FluffymonPWA.ComponentsLibrary.csproj.CopyComplete

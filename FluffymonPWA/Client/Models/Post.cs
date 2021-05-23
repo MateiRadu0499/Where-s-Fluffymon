@@ -13,6 +13,7 @@ namespace FluffymonPWA.Client.Models
         public DateTime Date { get; set; }
         public IEnumerable<Comment> Comments { get; set; }
         public string Reward { get; set; }
+        public string Image { get; set; }
         
     }
 }

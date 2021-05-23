@@ -1,4 +1,6 @@
-﻿<div class="top-row pl-4 navbar navbar-dark">
+﻿@inject Blazored.LocalStorage.ILocalStorageService localStorage
+
+<div class="top-row pl-4 navbar navbar-dark">
     <a class="navbar-brand" href="">FluffymonPWA</a>
     <button class="navbar-toggler" @onclick="ToggleNavMenu">
         <span class="navbar-toggler-icon"></span>
@@ -8,7 +10,7 @@
 <div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
     <ul class="nav flex-column">
         <li class="nav-item px-3">
-            <NavLink class="nav-link" href="profile" Match="NavLinkMatch.All">
+            <NavLink class="nav-link" href='@string.Format("profile/{0}",localId)' Match="NavLinkMatch.All">
                 <span class="oi oi-home" aria-hidden="true"></span> Profile
             </NavLink>
         </li>
@@ -20,6 +22,11 @@
         <li class="nav-item px-3">
             <NavLink class="nav-link" href="posts">
                 <span class="oi oi-list-rich" aria-hidden="true"></span> Missing pets
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="maps">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Live map
             </NavLink>
         </li>
     </ul>
@@ -36,4 +43,10 @@
     {
         collapseNavMenu = !collapseNavMenu;
     }
+
+    protected override async Task OnInitializedAsync()
+    {
+        localId = await localStorage.GetItemAsStringAsync("id");
+    }
+
 }

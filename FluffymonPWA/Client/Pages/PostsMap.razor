@@ -1,0 +1,11 @@
+﻿@page "/maps"
+<h3>PostsMap</h3>
+
+<div class="track-posts-map">
+    <Map Zoom="13" Markers=null/>
+</div>
+
+@code {
+    Marker mockup1 = new Marker { Description = "Yes test", X = 51.5001, Y = -0.1239, ShowPopup = false };
+    Marker mockup2 = new Marker { Description = "Yes test", X = 51.5010, Y = -0.1250, ShowPopup = false };
+}

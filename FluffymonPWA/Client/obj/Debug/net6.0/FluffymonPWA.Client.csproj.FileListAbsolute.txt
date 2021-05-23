@@ -723,3 +723,9 @@ C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Client\obj\D
 C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Client\obj\Debug\net6.0\serviceworkers\wwwroot\service-worker.js
 C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Client\obj\Debug\net6.0\service-worker-assets.js
 C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Client\obj\Debug\net6.0\scopedcss\Pages\ForgotPassword.razor.rz.scp.css
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Client\obj\Debug\net6.0\scopedcss\Pages\Profile.razor.rz.scp.css
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Client\bin\Debug\net6.0\wwwroot\_framework\FluffymonPWA.ComponentsLibrary.dll.gz
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Client\bin\Debug\net6.0\wwwroot\_framework\FluffymonPWA.ComponentsLibrary.dll
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Client\bin\Debug\net6.0\wwwroot\_framework\FluffymonPWA.ComponentsLibrary.pdb
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Client\obj\Debug\net6.0\build-gz\jhoJ7MfB.gz
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Client\obj\Debug\net6.0\scopedcss\Pages\PostsMap.razor.rz.scp.css

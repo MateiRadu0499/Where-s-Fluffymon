@@ -96,3 +96,5 @@ C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Server\obj\D
 C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Server\obj\Debug\net6.0\ref\FluffymonPWA.Server.dll
 C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Server\obj\Debug\net6.0\FluffymonPWA.Server.pdb
 C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Server\obj\Debug\net6.0\FluffymonPWA.Server.genruntimeconfig.cache
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Server\bin\Debug\net6.0\FluffymonPWA.ComponentsLibrary.dll
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Server\bin\Debug\net6.0\FluffymonPWA.ComponentsLibrary.pdb

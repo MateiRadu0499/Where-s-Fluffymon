@@ -1,0 +1,128 @@
+﻿<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
+
+body[b-mk2n0tthi3] {
+}
+
+.profile-photo[b-mk2n0tthi3] {
+    background: #99b3ff;
+    padding-bottom: 334px;
+    display: table-cell;
+}
+
+
+.title[b-mk2n0tthi3] {
+    margin-left: 10px;
+    text-align: center;
+}
+
+.profile-photo .image-holder[b-mk2n0tthi3] {
+    display: table-cell;
+    width: auto;
+    background: url(https://images.pexels.com/photos/5257587/pexels-photo-5257587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    width: 500px;
+    height: 1000px;
+    border-top-left-radius: 6px;
+}
+
+.profile-photo .form-container[b-mk2n0tthi3] {
+    display: table;
+    width: 1000px;
+    height: 100%;
+    margin-left: 25%;
+    text-align:center;
+    margin-top: 25px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1)
+}
+
+.profile-photo form[b-mk2n0tthi3] {
+    margin-top: 50px;
+    display: table-cell;
+    background-color: #54988E;;
+    width: 500px;
+    margin-right: 200px;
+    padding: 60px 60px;
+    color: #505e6c;
+    border-top-right-radius: 6px;
+}
+
+h3 a[b-mk2n0tthi3] {
+    color: black;
+    border: 2px solid #4CAF50;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+h3 a:hover[b-mk2n0tthi3] {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+@media (max-width:991px) {
+    .profile-photo form[b-mk2n0tthi3] {
+        padding: 60px;
+    }
+}
+
+.profile-photo form h2[b-mk2n0tthi3] {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 30px
+}
+
+.profile-photo form .form-control[b-mk2n0tthi3] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #dfe7f1;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    color: inherit;
+    text-indent: 0px;
+    height: 40px
+}
+
+.profile-photo form .form-check[b-mk2n0tthi3] {
+    font-size: 13px;
+    line-height: 20px
+}
+
+.profile-photo form .btn-primary[b-mk2n0tthi3] {
+    background: blue;
+    border: none;
+    border-radius: 4px;
+    padding: 11px;
+    box-shadow: none;
+    margin-top: 35px;
+    text-shadow: none;
+    outline: none !important
+}
+
+    .profile-photo form .btn-primary:hover[b-mk2n0tthi3],
+    .profile-photo form .btn-primary:active[b-mk2n0tthi3] {
+        background: blue
+    }
+
+    .profile-photo form .btn-primary:active[b-mk2n0tthi3] {
+        transform: translateY(1px)
+    }
+
+.profile-photo form .already[b-mk2n0tthi3] {
+    margin-top: 21px;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #6f7a85;
+    opacity: 0.9;
+    text-decoration: none
+}
+
+
+h3[b-mk2n0tthi3] {
+    margin-top: 25px;
+    text-align: center;
+    color: black;
+    font-style: italic;
+}

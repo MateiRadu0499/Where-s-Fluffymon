@@ -2861,6 +2861,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Blazored.LocalStorage": "3.0.0",
+          "FluffymonPWA.ComponentsLibrary": "1.0.0",
           "FluffymonPWA.Shared": "1.0.0",
           "Microsoft.AspNetCore.Components.WebAssembly": "6.0.0-preview.3.21201.13",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
@@ -2873,11 +2874,26 @@
           "bin/placeholder/FluffymonPWA.Client.dll": {}
         }
       },
+      "FluffymonPWA.ComponentsLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "FluffymonPWA.Shared": "1.0.0",
+          "Microsoft.JSInterop": "6.0.0-preview.3.21201.13"
+        },
+        "compile": {
+          "bin/placeholder/FluffymonPWA.ComponentsLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FluffymonPWA.ComponentsLibrary.dll": {}
+        }
+      },
       "FluffymonPWA.Server/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "FluffymonPWA.Client": "1.0.0",
+          "FluffymonPWA.ComponentsLibrary": "1.0.0",
           "FluffymonPWA.Shared": "1.0.0",
           "Microsoft.AspNetCore.Components.WebAssembly.Server": "6.0.0-preview.3.21201.13",
           "Microsoft.EntityFrameworkCore": "6.0.0-preview.3.21201.2",
@@ -8826,6 +8842,11 @@
       "type": "project",
       "path": "../Client/FluffymonPWA.Client.csproj",
       "msbuildProject": "../Client/FluffymonPWA.Client.csproj"
+    },
+    "FluffymonPWA.ComponentsLibrary/1.0.0": {
+      "type": "project",
+      "path": "../FluffymonPWA.ComponentsLibrary/FluffymonPWA.ComponentsLibrary.csproj",
+      "msbuildProject": "../FluffymonPWA.ComponentsLibrary/FluffymonPWA.ComponentsLibrary.csproj"
     },
     "FluffymonPWA.Server/1.0.0": {
       "type": "project",

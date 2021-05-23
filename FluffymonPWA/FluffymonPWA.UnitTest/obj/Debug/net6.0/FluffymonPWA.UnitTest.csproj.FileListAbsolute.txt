@@ -174,3 +174,5 @@ C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\FluffymonPWA
 C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\FluffymonPWA.UnitTest\obj\Debug\net6.0\ref\FluffymonPWA.UnitTest.dll
 C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\FluffymonPWA.UnitTest\obj\Debug\net6.0\FluffymonPWA.UnitTest.pdb
 C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\FluffymonPWA.UnitTest\obj\Debug\net6.0\FluffymonPWA.UnitTest.genruntimeconfig.cache
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\FluffymonPWA.UnitTest\bin\Debug\net6.0\FluffymonPWA.ComponentsLibrary.dll
+C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\FluffymonPWA.UnitTest\bin\Debug\net6.0\FluffymonPWA.ComponentsLibrary.pdb

@@ -41,16 +41,6 @@ build_metadata.AdditionalFiles.TargetPath = Pages\GetPosts.razor
 build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Client\obj\Debug\net6.0\Razor\Pages\GetPosts.razor.g.cs
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Matei Radu/OneDrive/Desktop/Where-s-Fluffymon/FluffymonPWA/Client/Pages/Map.razor]
-build_metadata.AdditionalFiles.TargetPath = Pages\Map.razor
-build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Client\obj\Debug\net6.0\Razor\Pages\Map.razor.g.cs
-build_metadata.AdditionalFiles.CssScope = 
-
-[c:/Users/Matei Radu/OneDrive/Desktop/Where-s-Fluffymon/FluffymonPWA/Client/Pages/Profile.razor]
-build_metadata.AdditionalFiles.TargetPath = Pages\Profile.razor
-build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Client\obj\Debug\net6.0\Razor\Pages\Profile.razor.g.cs
-build_metadata.AdditionalFiles.CssScope = 
-
 [c:/Users/Matei Radu/OneDrive/Desktop/Where-s-Fluffymon/FluffymonPWA/Client/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = Shared\SurveyPrompt.razor
 build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Client\obj\Debug\net6.0\Razor\Shared\SurveyPrompt.razor.g.cs
@@ -75,6 +65,16 @@ build_metadata.AdditionalFiles.CssScope = b-1dj8m8b0km
 build_metadata.AdditionalFiles.TargetPath = Pages\Login.razor
 build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Client\obj\Debug\net6.0\Razor\Pages\Login.razor.g.cs
 build_metadata.AdditionalFiles.CssScope = b-jku4x01omn
+
+[c:/Users/Matei Radu/OneDrive/Desktop/Where-s-Fluffymon/FluffymonPWA/Client/Pages/PostsMap.razor]
+build_metadata.AdditionalFiles.TargetPath = Pages\PostsMap.razor
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Client\obj\Debug\net6.0\Razor\Pages\PostsMap.razor.g.cs
+build_metadata.AdditionalFiles.CssScope = b-87vh342gtd
+
+[c:/Users/Matei Radu/OneDrive/Desktop/Where-s-Fluffymon/FluffymonPWA/Client/Pages/Profile.razor]
+build_metadata.AdditionalFiles.TargetPath = Pages\Profile.razor
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Client\obj\Debug\net6.0\Razor\Pages\Profile.razor.g.cs
+build_metadata.AdditionalFiles.CssScope = b-mk2n0tthi3
 
 [c:/Users/Matei Radu/OneDrive/Desktop/Where-s-Fluffymon/FluffymonPWA/Client/Pages/Register.razor]
 build_metadata.AdditionalFiles.TargetPath = Pages\Register.razor

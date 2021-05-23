@@ -27,6 +27,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Client\FluffymonPWA.Client.csproj" />
+    <ProjectReference Include="..\FluffymonPWA.ComponentsLibrary\FluffymonPWA.ComponentsLibrary.csproj" />
     <ProjectReference Include="..\Shared\FluffymonPWA.Shared.csproj" />
   </ItemGroup>
 

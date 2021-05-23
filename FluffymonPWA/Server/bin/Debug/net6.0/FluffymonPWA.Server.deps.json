@@ -35,6 +35,7 @@
       "FluffymonPWA.Server/1.0.0": {
         "dependencies": {
           "FluffymonPWA.Client": "1.0.0",
+          "FluffymonPWA.ComponentsLibrary": "1.0.0",
           "FluffymonPWA.Shared": "1.0.0",
           "Microsoft.AspNetCore.Components.WebAssembly.Server": "6.0.0-preview.3.21201.13",
           "Microsoft.EntityFrameworkCore": "6.0.0-preview.3.21201.2",
@@ -1949,6 +1950,7 @@
       "FluffymonPWA.Client/1.0.0": {
         "dependencies": {
           "Blazored.LocalStorage": "3.0.0",
+          "FluffymonPWA.ComponentsLibrary": "1.0.0",
           "FluffymonPWA.Shared": "1.0.0",
           "Microsoft.AspNetCore.Components.WebAssembly": "6.0.0-preview.3.21201.13",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
@@ -1959,6 +1961,18 @@
         },
         "compile": {
           "FluffymonPWA.Client.dll": {}
+        }
+      },
+      "FluffymonPWA.ComponentsLibrary/1.0.0": {
+        "dependencies": {
+          "FluffymonPWA.Shared": "1.0.0",
+          "Microsoft.JSInterop": "6.0.0-preview.3.21201.13"
+        },
+        "runtime": {
+          "FluffymonPWA.ComponentsLibrary.dll": {}
+        },
+        "compile": {
+          "FluffymonPWA.ComponentsLibrary.dll": {}
         }
       },
       "FluffymonPWA.Shared/1.0.0": {
@@ -4863,6 +4877,11 @@
       "hashPath": "xunit.extensibility.execution.2.4.1.nupkg.sha512"
     },
     "FluffymonPWA.Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FluffymonPWA.ComponentsLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

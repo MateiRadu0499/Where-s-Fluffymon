@@ -6,11 +6,41 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Pages\Map.razor" />
+    <Content Remove="wwwroot\leaflet\images\layers-2x.png" />
+    <Content Remove="wwwroot\leaflet\images\layers.png" />
+    <Content Remove="wwwroot\leaflet\images\marker-icon-2x.png" />
+    <Content Remove="wwwroot\leaflet\images\marker-icon.png" />
+    <Content Remove="wwwroot\leaflet\images\marker-shadow.png" />
+    <Content Remove="wwwroot\leaflet\leaflet.css" />
+    <Content Remove="wwwroot\leaflet\leaflet.js" />
+    <Content Remove="wwwroot\localStorage.js" />
+    <Content Remove="wwwroot\postsMap.js" />
+    <Content Remove="wwwroot\pushNotifications.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Pages\ForgotPassword.razor.css" />
+    <None Remove="Pages\Profile.razor.css" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="Pages\ForgotPassword.razor.css" />
+    <Content Include="Pages\Profile.razor.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\Map.razor" />
+    <None Include="wwwroot\leaflet\images\layers-2x.png" />
+    <None Include="wwwroot\leaflet\images\layers.png" />
+    <None Include="wwwroot\leaflet\images\marker-icon-2x.png" />
+    <None Include="wwwroot\leaflet\images\marker-icon.png" />
+    <None Include="wwwroot\leaflet\images\marker-shadow.png" />
+    <None Include="wwwroot\leaflet\leaflet.css" />
+    <None Include="wwwroot\leaflet\leaflet.js" />
+    <None Include="wwwroot\localStorage.js" />
+    <None Include="wwwroot\postsMap.js" />
+    <None Include="wwwroot\pushNotifications.js" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,6 +52,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\FluffymonPWA.ComponentsLibrary\FluffymonPWA.ComponentsLibrary.csproj" />
     <ProjectReference Include="..\Shared\FluffymonPWA.Shared.csproj" />
   </ItemGroup>
 

@@ -50,6 +50,11 @@
         return "";
     }
 
+    HttpClient httpClient = new HttpClient()
+    {
+        BaseAddress = new Uri("http://localhost:44398")
+    };
+
     protected async Task LoginUser()
     {
         HttpResponseMessage response = await Http.PostAsJsonAsync<User>("/api/v1/Login", user);
@@ -58,6 +63,7 @@
             localId = Convert.ToString(response.Content.ReadAsStringAsync());
             string returnValueId = await response.Content.ReadAsStringAsync();
             Console.WriteLine(returnValueId);
+
             await localStorage.SetItemAsync("authenticated", "True");
             await localStorage.SetItemAsync("id", returnValueId);
             var ip = await GetIPAddress();
@@ -67,7 +73,9 @@
                 var json = await responseLocation.Content.ReadAsStringAsync();
                 var model = new GeoInfoModel();
                 model = JsonConvert.DeserializeObject<GeoInfoModel>(json);
-                Console.WriteLine("Got the geolocation");
+                Console.WriteLine(model.Latitude);
+                Console.WriteLine(model.Longitude);
+                Console.WriteLine(model.RegionCode);
             }
             else
             {

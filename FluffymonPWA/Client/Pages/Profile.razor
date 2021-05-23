@@ -4,6 +4,7 @@
 @inject Blazored.LocalStorage.ILocalStorageService localStorage
 @using FluffymonPWA.Client.Models
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 @if (Id != localId && localId != null)
 {
     NavManager.NavigateTo("/error");
@@ -16,19 +17,19 @@ else
             <h1>Just a second</h1>
         }
         else
-        {
-            <div class="login-container">
-                <div class="form-container">
-                    <form method="post">
-                        <h5 class="text-center">Profile</h5>
-                        <h2>Username: @user.Username</h2>
-                        <h2>First Name: @user.FirstName</h2>
-                        <h2>Last Name: @user.LastName</h2>
-                        <h2>Phone: @user.PhoneNumber</h2>
-                        <h2>Email: @user.Email</h2>
-                    </form>
-                </div>
+        {<div class="profile-photo">
+            <div class="form-container">
+                <div class="image-holder"></div>
+                <form method="post">
+                    <h2 class="text-center"><strong>Profile</strong></h2>
+                    <h3>Username: @user.Username</h3>
+                    <h3>First Name: @user.FirstName</h3>
+                    <h3>Last Name: @user.LastName</h3>
+                    <h3>Phone: @user.PhoneNumber</h3>
+                    <h3>Email: @user.Email</h3>
+                </form>
             </div>
+        </div>
         }
     </div>
 }
@@ -44,7 +45,7 @@ else
 
     HttpClient httpClient = new HttpClient()
     {
-        BaseAddress = new Uri("https://localhost:5001")
+        BaseAddress = new Uri("https://localhost:44398")
     };
 
     protected override async Task OnInitializedAsync()

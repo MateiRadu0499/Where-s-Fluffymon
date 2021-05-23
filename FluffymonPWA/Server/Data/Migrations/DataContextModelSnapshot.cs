@@ -14,7 +14,7 @@ namespace FluffymonPWA.Server.Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "5.0.5");
+                .HasAnnotation("ProductVersion", "6.0.0-preview.3.21201.2");
 
             modelBuilder.Entity("FluffymonPWA.Server.Models.Comment", b =>
                 {
@@ -56,14 +56,17 @@ namespace FluffymonPWA.Server.Data.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("Image")
+                        .HasColumnType("TEXT");
+
                     b.Property<float>("Latitude")
                         .HasColumnType("REAL");
 
                     b.Property<float>("Longitude")
                         .HasColumnType("REAL");
 
-                    b.Property<int>("Reward")
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("Reward")
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("Title")
                         .HasColumnType("TEXT");
