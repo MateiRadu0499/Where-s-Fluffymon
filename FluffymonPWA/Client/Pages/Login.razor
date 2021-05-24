@@ -73,9 +73,9 @@
                 var json = await responseLocation.Content.ReadAsStringAsync();
                 var model = new GeoInfoModel();
                 model = JsonConvert.DeserializeObject<GeoInfoModel>(json);
-                Console.WriteLine(model.Latitude);
-                Console.WriteLine(model.Longitude);
-                Console.WriteLine(model.RegionCode);
+                await localStorage.SetItemAsync("latitude", model.Latitude);
+                await localStorage.SetItemAsync("longitude", model.Longitude);
+                await localStorage.SetItemAsync("regioncode", model.RegionCode);
             }
             else
             {

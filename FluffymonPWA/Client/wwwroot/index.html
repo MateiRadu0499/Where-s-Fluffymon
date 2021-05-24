@@ -10,6 +10,7 @@
     <link href="css/app.css" rel="stylesheet" />
     <link href="FluffymonPWA.Client.styles.css" rel="stylesheet" />
     <link href="manifest.json" rel="manifest" />
+    <link href="leaflet/leaflet.css" rel="stylesheet" />
     <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
 </head>
 
@@ -23,6 +24,24 @@
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
     <script>navigator.serviceWorker.register('service-worker.js');</script>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaY2X4fuc1a9MRbDYMB9Oxx9JVobH9a8g&callback=initMap">
+    </script>
+    <script>
+        function initMap(obj, posts) {
+            map = new google.maps.Map(document.getElementById("map"), {
+                center: { lat: obj.lat, lng: obj.lng },
+                zoom: 16,
+            });
+
+            var marker = new google.maps.Marker({
+                position: { lat: posts.Latitude, lng: posts.Longitude },
+                title: "Test"
+            });
+
+            marker.setMap(map);
+            
+        }
+    </script>
 </body>
 
 </html>

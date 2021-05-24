@@ -6,6 +6,7 @@ namespace FluffymonPWA.Server.Models
     public class Post
     {
         public int Id { get; set; }
+        //public int IdUser { get; set; }
         public string Title { get; set; }
         public float Latitude { get; set; }
         public float Longitude { get; set; }

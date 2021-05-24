@@ -1,11 +1,51 @@
 ﻿@page "/maps"
+@using Microsoft.JSInterop
+@using System.Globalization;
+@inject IJSRuntime JSRuntime
+@inject Blazored.LocalStorage.ILocalStorageService localStorage
 <h3>PostsMap</h3>
 
-<div class="track-posts-map">
-    <Map Zoom="13" Markers=null/>
-</div>
+<div id="map" style="height:800px;width:100%;"></div>
+
 
 @code {
-    Marker mockup1 = new Marker { Description = "Yes test", X = 51.5001, Y = -0.1239, ShowPopup = false };
-    Marker mockup2 = new Marker { Description = "Yes test", X = 51.5010, Y = -0.1250, ShowPopup = false };
+        [Inject]
+        public IJSRuntime jsRuntime { get; set; }
+    public string latitude { get; set; }
+    public string longitude { get; set; }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            latitude = await localStorage.GetItemAsStringAsync("latitude");
+            longitude = await localStorage.GetItemAsStringAsync("longitude");
+            FluffymonPWA.Client.Models.Post post1 = new FluffymonPWA.Client.Models.Post
+            {
+                Id = 1,
+                Title = "Dog1",
+                Latitude = float.Parse(latitude, CultureInfo.InvariantCulture.NumberFormat),
+                Longitude = float.Parse(longitude, CultureInfo.InvariantCulture.NumberFormat) ,
+                Description = "Lorem ipsum1",
+                Date = DateTime.Now,
+                Comments = null,
+                Reward = "20 USD"
+            };
+
+            FluffymonPWA.Client.Models.Post post2 = new FluffymonPWA.Client.Models.Post
+            {
+                Id = 2,
+                Title = "Dog2",
+                Latitude = float.Parse(latitude, CultureInfo.InvariantCulture.NumberFormat) - 3,
+                Longitude = float.Parse(longitude, CultureInfo.InvariantCulture.NumberFormat) - 3,
+                Description = "Lorem ipsum1",
+                Date = DateTime.Now,
+                Comments = null,
+                Reward = "20 USD"
+            };
+
+            List<FluffymonPWA.Client.Models.Post> posts = new List<Models.Post> { post1, post2 };
+            await jsRuntime.InvokeVoidAsync("initMap", new { Lat = float.Parse(latitude, CultureInfo.InvariantCulture.NumberFormat), Lng = float.Parse(longitude, CultureInfo.InvariantCulture.NumberFormat)}, post1);
+        }
+    }
 }

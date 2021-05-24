@@ -4,6 +4,8 @@
 @inject NavigationManager NavManager
 @using FluffymonPWA.Client.Models
 @inject HttpClient Http
+@using System.Globalization;
+@inject Blazored.LocalStorage.ILocalStorageService localStorage
 
 <h1>Information about the lost pet</h1>
 
@@ -37,9 +39,19 @@
     private Post post = new Post();
     private string res = "";
     private static Timer timer;
+    public string latitude { get; set; }
+    public string longitude { get; set; }
+    public string localId { get; set; }
 
     protected async Task MakePost()
     {
+        latitude = await localStorage.GetItemAsStringAsync("latitude");
+        longitude = await localStorage.GetItemAsStringAsync("longitude");
+        localId = await localStorage.GetItemAsStringAsync("id");
+
+        post.Latitude = float.Parse(latitude, CultureInfo.InvariantCulture.NumberFormat);
+        post.Longitude = float.Parse(longitude, CultureInfo.InvariantCulture.NumberFormat);
+        //post.IdUser = Int16.Parse(localId);
         post.Date = DateTime.Now;
         HttpResponseMessage response = await
             Http.PostAsJsonAsync<Post>("/api/v1/post", post);
