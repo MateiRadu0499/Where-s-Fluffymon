@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-K+0gOrrmvcchkzrI6YrU6sMQP9smcetDYWTW6IVAhbU=",
+      "hash": "sha256-PALkYOTuI4cJdriQEsyPnFa+McXL7JvPapU4wCuqIHs=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -937,11 +937,11 @@
       "url": "_framework\/FluffymonPWA.Shared.pdb"
     },
     {
-      "hash": "sha256-kd\/m11cT7kCXjG7kmBrOyxYD1+mxpzdI6TbG86xBK0k=",
+      "hash": "sha256-LY+NnRyJ\/+6RaaALgX0AE7VFHw9Wv9+AtUJ56V3Q1YM=",
       "url": "_framework\/FluffymonPWA.Client.dll"
     },
     {
-      "hash": "sha256-u+gQStA0GfwUx0RCWNeVQIjg0KjaPmcAHJIwd2xoRj4=",
+      "hash": "sha256-EetBcdUCC4Rf+z9QtJN2wBNlw7e3cELaBz1PezgjlXQ=",
       "url": "_framework\/FluffymonPWA.Client.pdb"
     },
     {
@@ -1929,7 +1929,7 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-Lv914GwovL66CfKgtmPAu8bEYCHBqEViyxx\/1ePKzHU=",
+      "hash": "sha256-HYSHTQB2BPt0cQV4ePiBJzXMoPpAInkUQMPl4OFsk\/k=",
       "url": "index.html"
     },
     {
@@ -1937,13 +1937,13 @@
       "url": "manifest.json"
     },
     {
-      "hash": "sha256-dMQc7HtaSaPD1Tws7VlwOAxWSs9U1BeR0PwToBLA7BI=",
+      "hash": "sha256-cQUZd1kXiPnM2AZfxwpVus+7y9ZmFegsrzQcn2LTspg=",
       "url": "FluffymonPWA.Client.styles.css"
     },
     {
-      "hash": "sha256-IWESVAsa5Wh9+B7yQ27wXwtkFUvWQKJxV+Cyu\/rzB8o=",
+      "hash": "sha256-DPhDds8CCjmHENjP6rIumM8fwgAirR34r7FcHDm3YDs=",
       "url": "FluffymonPWA.Client.bundle.scp.css"
     }
   ],
-  "version": "1is1mIuF"
+  "version": "JjapjfwE"
 };
