@@ -4,14 +4,14 @@
   <ProjectLanguage>C#</ProjectLanguage>
   <ProjectType>Product</ProjectType>
   <ProjectGuid>a086cd1b-c989-4f49-b121-fa93986d1565</ProjectGuid>
-  <FullPath>C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Shared\FluffymonPWA.Shared.csproj</FullPath>
+  <FullPath>C:\Users\Ioana\Desktop\fluffy moon\Where-s-Fluffymon\FluffymonPWA\Shared\FluffymonPWA.Shared.csproj</FullPath>
   <IsExcluded>false</IsExcluded>
   <AnalysisResults>
-    <AnalysisResult Id="FilesToAnalyze" Location="C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\.sonarqube\conf\0\FilesToAnalyze.txt" />
+    <AnalysisResult Id="FilesToAnalyze" Location="C:\Users\Ioana\Desktop\fluffy moon\Where-s-Fluffymon\FluffymonPWA\.sonarqube\conf\0\FilesToAnalyze.txt" />
   </AnalysisResults>
   <AnalysisSettings>
-    <Property Name="sonar.cs.roslyn.reportFilePaths">C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Shared\bin\Debug\net6.0\FluffymonPWA.Shared.dll.RoslynCA.json|C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\Shared\bin\Debug\net6.0\FluffymonPWA.Shared.dll.RoslynCA.json</Property>
-    <Property Name="sonar.cs.analyzer.projectOutPaths">C:\Users\Matei Radu\OneDrive\Desktop\Where-s-Fluffymon\FluffymonPWA\.sonarqube\out\0</Property>
+    <Property Name="sonar.cs.roslyn.reportFilePaths">C:\Users\Ioana\Desktop\fluffy moon\Where-s-Fluffymon\FluffymonPWA\Shared\bin\Debug\net6.0\FluffymonPWA.Shared.dll.RoslynCA.json|C:\Users\Ioana\Desktop\fluffy moon\Where-s-Fluffymon\FluffymonPWA\Shared\bin\Debug\net6.0\FluffymonPWA.Shared.dll.RoslynCA.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPaths">C:\Users\Ioana\Desktop\fluffy moon\Where-s-Fluffymon\FluffymonPWA\.sonarqube\out\0</Property>
   </AnalysisSettings>
   <Configuration>Debug</Configuration>
   <Platform>AnyCPU</Platform>

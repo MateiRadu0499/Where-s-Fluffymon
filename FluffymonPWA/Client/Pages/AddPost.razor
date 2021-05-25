@@ -24,8 +24,8 @@
                 <ValidationMessage For="@(() => post.Description)" />
             </div>
             <div class="form-group">
-                <InputText id="reward" class="form-control" placeholder="Reward"
-                           @bind-Value="post.Reward" />
+                <InputText id="reward" class="form-control" placeholder="Reward" 
+                           @bind-Value="post.Reward" pattern="^$?(([1-9](\d|\d{0,2}(,\d{3})))|0)(.\d{1,2})?$"/>
                 <ValidationMessage For="@(() => post.Reward)" />
             </div>
 
@@ -33,6 +33,8 @@
                 <input class="btn btn-primary btn-block" type="submit" value="Submit" />
             </div>
         </EditForm>
+        <h3>@goodMessage</h3>
+        <h4>@badMessage</h4>
     </div>
 </div>
 @code {
@@ -42,6 +44,8 @@
     public string latitude { get; set; }
     public string longitude { get; set; }
     public string localId { get; set; }
+    private string goodMessage = "";
+    private string badMessage = "";
 
     protected async Task MakePost()
     {
@@ -58,10 +62,16 @@
         if (response.StatusCode.ToString() == "OK")
         {
             res = "Post created succesfully";
+            badMessage = "";
+            goodMessage = res;
+
         }
         else
         {
             res = "Something went wrong when creating the post.";
+            badMessage = res;
+            goodMessage = "";
+
         }
     }
 }

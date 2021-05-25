@@ -9,7 +9,7 @@
 
 
 @code {
-        [Inject]
+    [Inject]
         public IJSRuntime jsRuntime { get; set; }
     public string latitude { get; set; }
     public string longitude { get; set; }
@@ -24,8 +24,8 @@
             {
                 Id = 1,
                 Title = "Dog1",
-                Latitude = float.Parse(latitude, CultureInfo.InvariantCulture.NumberFormat),
-                Longitude = float.Parse(longitude, CultureInfo.InvariantCulture.NumberFormat) ,
+                Latitude = float.Parse(latitude, CultureInfo.InvariantCulture.NumberFormat)+(float)0.0015,
+                Longitude = float.Parse(longitude, CultureInfo.InvariantCulture.NumberFormat)+(float)0.0015 ,
                 Description = "Lorem ipsum1",
                 Date = DateTime.Now,
                 Comments = null,
@@ -36,8 +36,8 @@
             {
                 Id = 2,
                 Title = "Dog2",
-                Latitude = float.Parse(latitude, CultureInfo.InvariantCulture.NumberFormat) - 3,
-                Longitude = float.Parse(longitude, CultureInfo.InvariantCulture.NumberFormat) - 3,
+                Latitude = float.Parse(latitude, CultureInfo.InvariantCulture.NumberFormat) - (float)0.0015,
+                Longitude = float.Parse(longitude, CultureInfo.InvariantCulture.NumberFormat) - (float)0.0015,
                 Description = "Lorem ipsum1",
                 Date = DateTime.Now,
                 Comments = null,
@@ -45,7 +45,8 @@
             };
 
             List<FluffymonPWA.Client.Models.Post> posts = new List<Models.Post> { post1, post2 };
-            await jsRuntime.InvokeVoidAsync("initMap", new { Lat = float.Parse(latitude, CultureInfo.InvariantCulture.NumberFormat), Lng = float.Parse(longitude, CultureInfo.InvariantCulture.NumberFormat)}, post1);
+            await jsRuntime.InvokeVoidAsync("initMap", new { Lat = float.Parse(latitude, CultureInfo.InvariantCulture.NumberFormat), Lng = float.Parse(longitude, CultureInfo.InvariantCulture.NumberFormat)});
+            //await jsRuntime.InvokeVoidAsync("addMarkers", new { Lat = float.Parse(latitude, CultureInfo.InvariantCulture.NumberFormat), Lng = float.Parse(longitude, CultureInfo.InvariantCulture.NumberFormat)}, new { post1, post2 });
         }
     }
 }

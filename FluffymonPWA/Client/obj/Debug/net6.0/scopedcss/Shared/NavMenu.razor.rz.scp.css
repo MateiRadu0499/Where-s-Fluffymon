@@ -31,7 +31,7 @@
         padding-bottom: 1rem;
     }
 
-    .nav-item[b-7yqzghcx48]  a {
+    .nav-item a[b-7yqzghcx48] {
         color: #d7d7d7;
         border-radius: 4px;
         height: 3rem;
@@ -40,12 +40,12 @@
         line-height: 3rem;
     }
 
-.nav-item[b-7yqzghcx48]  a.active {
+.nav-item a.active[b-7yqzghcx48] {
     background-color: rgba(255,255,255,0.25);
     color: white;
 }
 
-.nav-item[b-7yqzghcx48]  a:hover {
+.nav-item a:hover[b-7yqzghcx48] {
     background-color: rgba(255,255,255,0.1);
     color: white;
 }

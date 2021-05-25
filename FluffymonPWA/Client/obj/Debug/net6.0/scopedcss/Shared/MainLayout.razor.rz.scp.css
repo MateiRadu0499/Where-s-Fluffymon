@@ -23,7 +23,7 @@
     align-items: center;
 }
 
-    .top-row[b-68pdl77mck]  a, .top-row .btn-link[b-68pdl77mck] {
+    .top-row a[b-68pdl77mck], .top-row .btn-link[b-68pdl77mck] {
         white-space: nowrap;
         margin-left: 1.5rem;
     }

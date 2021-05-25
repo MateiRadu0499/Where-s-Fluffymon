@@ -24,23 +24,39 @@
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
     <script>navigator.serviceWorker.register('service-worker.js');</script>
-    <script async src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap">
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4iycH0e9fBVOCgujAplsWd9_ghnfty5E&callback=initMap" >
     </script>
     <script>
-        function initMap(obj, posts) {
+        function initMap(obj) {
             map = new google.maps.Map(document.getElementById("map"), {
                 center: { lat: obj.lat, lng: obj.lng },
                 zoom: 16,
             });
 
             var marker = new google.maps.Marker({
-                position: { lat: posts.Latitude, lng: posts.Longitude },
-                title: "Test"
+                position: { lat: obj.lat, lng: obj.lng  },
+                title: "test1"
             });
 
             marker.setMap(map);
-            
+
+            var marker = new google.maps.Marker({
+                position: { lat: obj.lat + 0.0015, lng: obj.lng + 0.0015 },
+                title: "test2"
+            });
+
+            marker.setMap(map);
+
+            var marker = new google.maps.Marker({
+                position: { lat: obj.lat - 0.0015, lng: obj.lng + 0.0015},
+                title: "test3"
+            });
+
+            marker.setMap(map);
+
+                       
         }
+        
     </script>
 </body>
 
