@@ -1,7 +1,4 @@
-﻿<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
-
-body[b-mk2n0tthi3] {
-}
+﻿
 
 .profile-photo[b-mk2n0tthi3] {
     background: #99b3ff;
@@ -17,7 +14,6 @@ body[b-mk2n0tthi3] {
 
 .profile-photo .image-holder[b-mk2n0tthi3] {
     display: table-cell;
-    width: auto;
     background: url(https://images.pexels.com/photos/5257587/pexels-photo-5257587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-size: cover;
     width: 500px;
@@ -38,7 +34,7 @@ body[b-mk2n0tthi3] {
 .profile-photo form[b-mk2n0tthi3] {
     margin-top: 50px;
     display: table-cell;
-    background-color: #54988E;;
+    background-color: #54988E;
     width: 500px;
     margin-right: 200px;
     padding: 60px 60px;

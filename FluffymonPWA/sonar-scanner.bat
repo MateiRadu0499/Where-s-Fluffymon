@@ -1,0 +1,1 @@
+SET JAVA_HOME=<C:\Users\Ioana\Desktop\jdk-12>

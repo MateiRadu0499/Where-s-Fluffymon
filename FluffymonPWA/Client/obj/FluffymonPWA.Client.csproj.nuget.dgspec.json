@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Client\\FluffymonPWA.Client.csproj": {}
+    "C:\\Users\\Ioana\\Desktop\\fluffy moon\\Where-s-Fluffymon\\FluffymonPWA\\Client\\FluffymonPWA.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Client\\FluffymonPWA.Client.csproj": {
+    "C:\\Users\\Ioana\\Desktop\\fluffy moon\\Where-s-Fluffymon\\FluffymonPWA\\Client\\FluffymonPWA.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Client\\FluffymonPWA.Client.csproj",
+        "projectUniqueName": "C:\\Users\\Ioana\\Desktop\\fluffy moon\\Where-s-Fluffymon\\FluffymonPWA\\Client\\FluffymonPWA.Client.csproj",
         "projectName": "FluffymonPWA.Client",
-        "projectPath": "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Client\\FluffymonPWA.Client.csproj",
-        "packagesPath": "C:\\Users\\Matei Radu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Client\\obj\\",
+        "projectPath": "C:\\Users\\Ioana\\Desktop\\fluffy moon\\Where-s-Fluffymon\\FluffymonPWA\\Client\\FluffymonPWA.Client.csproj",
+        "packagesPath": "C:\\Users\\Ioana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ioana\\Desktop\\fluffy moon\\Where-s-Fluffymon\\FluffymonPWA\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Matei Radu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Ioana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,11 +31,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\FluffymonPWA.ComponentsLibrary\\FluffymonPWA.ComponentsLibrary.csproj": {
-                "projectPath": "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\FluffymonPWA.ComponentsLibrary\\FluffymonPWA.ComponentsLibrary.csproj"
+              "C:\\Users\\Ioana\\Desktop\\fluffy moon\\Where-s-Fluffymon\\FluffymonPWA\\FluffymonPWA.ComponentsLibrary\\FluffymonPWA.ComponentsLibrary.csproj": {
+                "projectPath": "C:\\Users\\Ioana\\Desktop\\fluffy moon\\Where-s-Fluffymon\\FluffymonPWA\\FluffymonPWA.ComponentsLibrary\\FluffymonPWA.ComponentsLibrary.csproj"
               },
-              "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Shared\\FluffymonPWA.Shared.csproj": {
-                "projectPath": "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Shared\\FluffymonPWA.Shared.csproj"
+              "C:\\Users\\Ioana\\Desktop\\fluffy moon\\Where-s-Fluffymon\\FluffymonPWA\\Shared\\FluffymonPWA.Shared.csproj": {
+                "projectPath": "C:\\Users\\Ioana\\Desktop\\fluffy moon\\Where-s-Fluffymon\\FluffymonPWA\\Shared\\FluffymonPWA.Shared.csproj"
               }
             }
           }
@@ -103,21 +102,20 @@
         }
       }
     },
-    "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\FluffymonPWA.ComponentsLibrary\\FluffymonPWA.ComponentsLibrary.csproj": {
+    "C:\\Users\\Ioana\\Desktop\\fluffy moon\\Where-s-Fluffymon\\FluffymonPWA\\FluffymonPWA.ComponentsLibrary\\FluffymonPWA.ComponentsLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\FluffymonPWA.ComponentsLibrary\\FluffymonPWA.ComponentsLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\Ioana\\Desktop\\fluffy moon\\Where-s-Fluffymon\\FluffymonPWA\\FluffymonPWA.ComponentsLibrary\\FluffymonPWA.ComponentsLibrary.csproj",
         "projectName": "FluffymonPWA.ComponentsLibrary",
-        "projectPath": "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\FluffymonPWA.ComponentsLibrary\\FluffymonPWA.ComponentsLibrary.csproj",
-        "packagesPath": "C:\\Users\\Matei Radu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\FluffymonPWA.ComponentsLibrary\\obj\\",
+        "projectPath": "C:\\Users\\Ioana\\Desktop\\fluffy moon\\Where-s-Fluffymon\\FluffymonPWA\\FluffymonPWA.ComponentsLibrary\\FluffymonPWA.ComponentsLibrary.csproj",
+        "packagesPath": "C:\\Users\\Ioana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ioana\\Desktop\\fluffy moon\\Where-s-Fluffymon\\FluffymonPWA\\FluffymonPWA.ComponentsLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Matei Radu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Ioana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -131,8 +129,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Shared\\FluffymonPWA.Shared.csproj": {
-                "projectPath": "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Shared\\FluffymonPWA.Shared.csproj"
+              "C:\\Users\\Ioana\\Desktop\\fluffy moon\\Where-s-Fluffymon\\FluffymonPWA\\Shared\\FluffymonPWA.Shared.csproj": {
+                "projectPath": "C:\\Users\\Ioana\\Desktop\\fluffy moon\\Where-s-Fluffymon\\FluffymonPWA\\Shared\\FluffymonPWA.Shared.csproj"
               }
             }
           }
@@ -171,21 +169,20 @@
         }
       }
     },
-    "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Shared\\FluffymonPWA.Shared.csproj": {
+    "C:\\Users\\Ioana\\Desktop\\fluffy moon\\Where-s-Fluffymon\\FluffymonPWA\\Shared\\FluffymonPWA.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Shared\\FluffymonPWA.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Ioana\\Desktop\\fluffy moon\\Where-s-Fluffymon\\FluffymonPWA\\Shared\\FluffymonPWA.Shared.csproj",
         "projectName": "FluffymonPWA.Shared",
-        "projectPath": "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Shared\\FluffymonPWA.Shared.csproj",
-        "packagesPath": "C:\\Users\\Matei Radu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matei Radu\\OneDrive\\Desktop\\Where-s-Fluffymon\\FluffymonPWA\\Shared\\obj\\",
+        "projectPath": "C:\\Users\\Ioana\\Desktop\\fluffy moon\\Where-s-Fluffymon\\FluffymonPWA\\Shared\\FluffymonPWA.Shared.csproj",
+        "packagesPath": "C:\\Users\\Ioana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ioana\\Desktop\\fluffy moon\\Where-s-Fluffymon\\FluffymonPWA\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Matei Radu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Ioana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

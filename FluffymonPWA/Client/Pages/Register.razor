@@ -84,25 +84,28 @@
         {
             res = "Account created succesfully";
             badMessage = "";
-            goodMessage = "";
-            goodMessage +=  "Account created succesfully,you will be redirected to Login page.";
+            goodMessage +=  "Account created succesfully, you will be redirected to Login page.";
+
+            timer = new System.Timers.Timer();
+            timer.Interval = 3000;
+
+            timer.Elapsed += (sender, args) =>
+            {
+                NavManager.NavigateTo("/login");
+            };
+
+            timer.AutoReset = true;
+            timer.Enabled = true;
         }
         else
         {
             res = "Username already in use.";
             badMessage = "";
             badMessage += "Account already exists.";
+
+        
         }
 
-        timer = new System.Timers.Timer();
-        timer.Interval = 3000;
-
-        timer.Elapsed += (sender, args) =>
-        {
-            NavManager.NavigateTo("/login");
-        };
-
-        timer.AutoReset = true;
-        timer.Enabled = true;
+        
     }
 }
