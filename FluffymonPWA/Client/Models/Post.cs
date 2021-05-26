@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 
 namespace FluffymonPWA.Client.Models
@@ -15,6 +16,6 @@ namespace FluffymonPWA.Client.Models
         public IEnumerable<Comment> Comments { get; set; }
         public string Reward { get; set; }
         public string Image { get; set; }
-        
+
     }
 }

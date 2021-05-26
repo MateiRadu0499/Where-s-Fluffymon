@@ -218,15 +218,15 @@
       "mscorlib.dll": "sha256-YjNhoNu7ZpGNeCOE\/iYKdu+6b\/najaWXVUsXVEQse9U=",
       "netstandard.dll": "sha256-v8CNN0\/qTBMp14V\/lLikL\/ZsMCDh2TlqgwPpimeJWXM=",
       "System.Private.CoreLib.dll": "sha256-1RoQc\/hM\/VOrsLI\/Vt26uwRHBttAeJrsgy+px2PGAIs=",
-      "FluffymonPWA.ComponentsLibrary.dll": "sha256-YHpmzRjeeCBb9Fy+0mZMM9caz8vSl1tZ58gaQuqH0so=",
-      "FluffymonPWA.Shared.dll": "sha256-w3dgbLvgyxL6BVivoqr8z+WNSdGpybgTRpaGSFgMyy4=",
-      "FluffymonPWA.Client.dll": "sha256-LY+NnRyJ\/+6RaaALgX0AE7VFHw9Wv9+AtUJ56V3Q1YM="
+      "FluffymonPWA.ComponentsLibrary.dll": "sha256-1Das09z8Nk+vH0MCZZT6BLOcesfBKncHS0Jip\/ypZnw=",
+      "FluffymonPWA.Shared.dll": "sha256-FiDfJita2v9dohg6+dhKp1g4psrJIbBJvtjNMTWu8H0=",
+      "FluffymonPWA.Client.dll": "sha256-E3\/epoYkeARzKlSjB+TEkGhtDY4ufH7Ufp1LnWR5L0w="
     },
     "lazyAssembly": null,
     "pdb": {
-      "FluffymonPWA.ComponentsLibrary.pdb": "sha256-KX\/VTaN5LytmV8ijLLNZNPXamrPfiGWByo1NHuXotCY=",
-      "FluffymonPWA.Shared.pdb": "sha256-Dw4JzcdaedwPA7vQoBoeF9YbhnjG3E9KSLT9zTPp96Y=",
-      "FluffymonPWA.Client.pdb": "sha256-EetBcdUCC4Rf+z9QtJN2wBNlw7e3cELaBz1PezgjlXQ="
+      "FluffymonPWA.ComponentsLibrary.pdb": "sha256-LFGDR7RU55Py13f06YvXm9d6q1Ty+k\/bJc\/mCPl83OE=",
+      "FluffymonPWA.Shared.pdb": "sha256-j6B0fuCFF1IBw9Z3xIJrQQExz\/rprO00pXeDta595hE=",
+      "FluffymonPWA.Client.pdb": "sha256-h8BV4SPQYyq9M++sqsZDNKLg0uV8QBs+cvFMtfRZ9T0="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-8Zl9Qupq3DPoO5h2x3Teyjk03M4CVJzS8KggLxsW7y8=",

@@ -12,7 +12,7 @@
 
 <div class="make-post-container">
     <div class="form-container">
-        <EditForm Model="@post" OnValidSubmit="MakePost">
+        <EditForm Model="@post" OnValidSubmit="MakePost" enctype="multipart/form-data">
             <div class="form-group">
                 <InputText id="title" class="form-control" placeholder="Title"
                            @bind-Value="post.Title" />
@@ -49,8 +49,10 @@
 
     protected async Task MakePost()
     {
-        latitude = await localStorage.GetItemAsStringAsync("latitude");
-        longitude = await localStorage.GetItemAsStringAsync("longitude");
+        //latitude = await localStorage.GetItemAsStringAsync("latitude");
+        //longitude = await localStorage.GetItemAsStringAsync("longitude");
+        latitude = await localStorage.GetItemAsStringAsync("post_latitude");
+        longitude = await localStorage.GetItemAsStringAsync("post_longitude");
         localId = await localStorage.GetItemAsStringAsync("id");
 
         post.Latitude = float.Parse(latitude, CultureInfo.InvariantCulture.NumberFormat);

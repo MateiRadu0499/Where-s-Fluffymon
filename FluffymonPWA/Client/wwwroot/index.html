@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -12,10 +11,15 @@
     <link href="manifest.json" rel="manifest" />
     <link href="leaflet/leaflet.css" rel="stylesheet" />
     <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <body>
-    <div id="app">Loading...</div>
+    <div id="app">
+        <div class="overlay show" id="overlay">
+            <img class="loading-spinner" src="spinner.svg" />
+        </div>
+    </div>
 
     <div id="blazor-error-ui">
         An unhandled error has occurred.
@@ -24,40 +28,80 @@
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
     <script>navigator.serviceWorker.register('service-worker.js');</script>
-    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4iycH0e9fBVOCgujAplsWd9_ghnfty5E&callback=initMap" >
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4iycH0e9fBVOCgujAplsWd9_ghnfty5E&callback=initMap">
     </script>
     <script>
+        var postMode = false;
+
+        function addMarkers(map) {
+            $.ajax({
+                url: '/api/v1/post',
+                type: 'GET',
+                success: function (data) {
+                    for (let i = 0; i < data.length; i++) {
+                        if (data[i].latitude == 0 || data[i].longitude == 0) continue;
+                        new google.maps.Marker({
+                            position: { lat: data[i].latitude, lng: data[i].longitude },
+                            title: data[i].title,
+                            map: map
+                        });
+                    }
+                }
+            })
+        }
+
         function initMap(obj) {
             map = new google.maps.Map(document.getElementById("map"), {
                 center: { lat: obj.lat, lng: obj.lng },
-                zoom: 16,
+                zoom: 14,
+                gestureHandling: 'greedy'
             });
 
-            var marker = new google.maps.Marker({
-                position: { lat: obj.lat, lng: obj.lng  },
-                title: "test1"
+            map.addListener("click", async function (mapsMouseEvent) {
+                if (!postMode) return;
+
+                let coords = mapsMouseEvent.latLng.toJSON();
+                await setLocation(coords)
+                    .then(() => window.location.href = '/post');
             });
 
-            marker.setMap(map);
-
-            var marker = new google.maps.Marker({
-                position: { lat: obj.lat + 0.0015, lng: obj.lng + 0.0015 },
-                title: "test2"
-            });
-
-            marker.setMap(map);
-
-            var marker = new google.maps.Marker({
-                position: { lat: obj.lat - 0.0015, lng: obj.lng + 0.0015},
-                title: "test3"
-            });
-
-            marker.setMap(map);
-
-                       
+            addMarkers(map);
         }
-        
-    </script>
-</body>
 
+        async function setLocation(coords) {
+            await localStorage.setItem("post_latitude", coords["lat"]);
+            await localStorage.setItem("post_longitude", coords["lng"]);
+        }
+
+        function togglePost() {
+            postMode = !postMode;
+            document.getElementById('postButton').text = !postMode ? "Create Post" : "Cancel";
+        }
+
+    </script>
+
+    <style>
+        .overlay {
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba(0,0,0,0.5);
+            display: none;
+        }
+
+        .loading-spinner {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateY(-50%) translateX(-50%);
+        }
+
+        .show {
+            display: block !important;
+        }
+    </style>
+</body>
 </html>

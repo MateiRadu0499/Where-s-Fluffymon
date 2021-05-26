@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-PALkYOTuI4cJdriQEsyPnFa+McXL7JvPapU4wCuqIHs=",
+      "hash": "sha256-Fg+xhfov8OFSuLDrVNQTuRQMlhF8B5xCzbQV4Rl2ZXY=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -921,27 +921,27 @@
       "url": "_framework\/dotnet.6.0.0-preview.3.21201.4.js"
     },
     {
-      "hash": "sha256-YHpmzRjeeCBb9Fy+0mZMM9caz8vSl1tZ58gaQuqH0so=",
+      "hash": "sha256-1Das09z8Nk+vH0MCZZT6BLOcesfBKncHS0Jip\/ypZnw=",
       "url": "_framework\/FluffymonPWA.ComponentsLibrary.dll"
     },
     {
-      "hash": "sha256-w3dgbLvgyxL6BVivoqr8z+WNSdGpybgTRpaGSFgMyy4=",
+      "hash": "sha256-FiDfJita2v9dohg6+dhKp1g4psrJIbBJvtjNMTWu8H0=",
       "url": "_framework\/FluffymonPWA.Shared.dll"
     },
     {
-      "hash": "sha256-KX\/VTaN5LytmV8ijLLNZNPXamrPfiGWByo1NHuXotCY=",
+      "hash": "sha256-LFGDR7RU55Py13f06YvXm9d6q1Ty+k\/bJc\/mCPl83OE=",
       "url": "_framework\/FluffymonPWA.ComponentsLibrary.pdb"
     },
     {
-      "hash": "sha256-Dw4JzcdaedwPA7vQoBoeF9YbhnjG3E9KSLT9zTPp96Y=",
+      "hash": "sha256-j6B0fuCFF1IBw9Z3xIJrQQExz\/rprO00pXeDta595hE=",
       "url": "_framework\/FluffymonPWA.Shared.pdb"
     },
     {
-      "hash": "sha256-LY+NnRyJ\/+6RaaALgX0AE7VFHw9Wv9+AtUJ56V3Q1YM=",
+      "hash": "sha256-E3\/epoYkeARzKlSjB+TEkGhtDY4ufH7Ufp1LnWR5L0w=",
       "url": "_framework\/FluffymonPWA.Client.dll"
     },
     {
-      "hash": "sha256-EetBcdUCC4Rf+z9QtJN2wBNlw7e3cELaBz1PezgjlXQ=",
+      "hash": "sha256-h8BV4SPQYyq9M++sqsZDNKLg0uV8QBs+cvFMtfRZ9T0=",
       "url": "_framework\/FluffymonPWA.Client.pdb"
     },
     {
@@ -1865,11 +1865,11 @@
       "url": "_framework\/dotnet.6.0.0-preview.3.21201.4.js.gz"
     },
     {
-      "hash": "sha256-j1c1NXeZZmkpQKeTl8W\/2XAP++WDV\/o\/U+cQ0n12U9Y=",
+      "hash": "sha256-mBZ3rJKsEaL0J3Zdj6IYZdKQ+OvYNR5BXPngpucKJZc=",
       "url": "_framework\/FluffymonPWA.ComponentsLibrary.dll.gz"
     },
     {
-      "hash": "sha256-kYRNEroR5lRW\/9QfXaCtwGJcySEpAVBpdyKPJH3n9jI=",
+      "hash": "sha256-ZSNm05bhFLvYyinJ1DyeF+Sqkkh+9Sjcan8yXOwk7\/U=",
       "url": "_framework\/FluffymonPWA.Shared.dll.gz"
     },
     {
@@ -1929,12 +1929,16 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-HYSHTQB2BPt0cQV4ePiBJzXMoPpAInkUQMPl4OFsk\/k=",
+      "hash": "sha256-NfTuiZg8LFotyT545tdM2Ysxp8WiWl9DKqpX60B\/1HU=",
       "url": "index.html"
     },
     {
       "hash": "sha256-Q6wwQgFJS3VijykhuW1M7j1Hp9iH8zNqQSPFVylp9Lc=",
       "url": "manifest.json"
+    },
+    {
+      "hash": "sha256-Qo4cggsTm0ifvD5J8A3KbhSBuBPzn6LTrAtbqwNY5i4=",
+      "url": "spinner.svg"
     },
     {
       "hash": "sha256-cQUZd1kXiPnM2AZfxwpVus+7y9ZmFegsrzQcn2LTspg=",
@@ -1945,5 +1949,5 @@
       "url": "FluffymonPWA.Client.bundle.scp.css"
     }
   ],
-  "version": "JjapjfwE"
+  "version": "0BJi+T5K"
 };

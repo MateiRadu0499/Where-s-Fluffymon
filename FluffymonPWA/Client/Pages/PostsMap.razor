@@ -3,9 +3,10 @@
 @using System.Globalization;
 @inject IJSRuntime JSRuntime
 @inject Blazored.LocalStorage.ILocalStorageService localStorage
-<h3>PostsMap</h3>
+<h3>PostsMap</h3> <span>
+<a id='postButton' href="javascript:;" onclick='togglePost()'>Create Post</a></span>
 
-<div id="map" style="height:800px;width:100%;"></div>
+<div id="map" style="height:800px;width:100%;z-index: 9999"></div>
 
 
 @code {
@@ -20,6 +21,7 @@
         {
             latitude = await localStorage.GetItemAsStringAsync("latitude");
             longitude = await localStorage.GetItemAsStringAsync("longitude");
+
             FluffymonPWA.Client.Models.Post post1 = new FluffymonPWA.Client.Models.Post
             {
                 Id = 1,
@@ -46,7 +48,6 @@
 
             List<FluffymonPWA.Client.Models.Post> posts = new List<Models.Post> { post1, post2 };
             await jsRuntime.InvokeVoidAsync("initMap", new { Lat = float.Parse(latitude, CultureInfo.InvariantCulture.NumberFormat), Lng = float.Parse(longitude, CultureInfo.InvariantCulture.NumberFormat)});
-            //await jsRuntime.InvokeVoidAsync("addMarkers", new { Lat = float.Parse(latitude, CultureInfo.InvariantCulture.NumberFormat), Lng = float.Parse(longitude, CultureInfo.InvariantCulture.NumberFormat)}, new { post1, post2 });
         }
     }
 }
