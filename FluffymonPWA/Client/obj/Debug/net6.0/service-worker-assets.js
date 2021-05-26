@@ -1877,7 +1877,7 @@
       "url": "css\/app.css"
     },
     {
-      "hash": "sha256-rldnE7wZYJj3Q43t5v8fg1ojKRwyt0Wtfm+224CacZs=",
+      "hash": "sha256-nQzBRY\/qjCUGdG7B14njDLlnxC9ySHRDDXs7I7aMq\/g=",
       "url": "css\/bootstrap\/bootstrap.min.css"
     },
     {
@@ -1941,13 +1941,13 @@
       "url": "spinner.svg"
     },
     {
-      "hash": "sha256-cQUZd1kXiPnM2AZfxwpVus+7y9ZmFegsrzQcn2LTspg=",
+      "hash": "sha256-JFzKc1n\/dapBBjaoGIsB3RpcFAGhAHpcjsk4euiQNY0=",
       "url": "FluffymonPWA.Client.styles.css"
     },
     {
-      "hash": "sha256-DPhDds8CCjmHENjP6rIumM8fwgAirR34r7FcHDm3YDs=",
+      "hash": "sha256-km6RTb5qt9UCUAPNQ1Nwe+e6Y109jDYGxGnH65uIalY=",
       "url": "FluffymonPWA.Client.bundle.scp.css"
     }
   ],
-  "version": "0BJi+T5K"
+  "version": "ynYWNMA4"
 };

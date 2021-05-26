@@ -1,14 +1,16 @@
-﻿﻿
+﻿.body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
 
 .profile-photo {
-    background: #99b3ff;
-    padding-bottom: 334px;
-    display: table-cell;
+    background: #5f8dd2;
+    height: 100vh;
 }
 
 
 .title {
-    margin-left: 10px;
     text-align: center;
 }
 
@@ -16,34 +18,35 @@
     display: table-cell;
     background: url(https://images.pexels.com/photos/5257587/pexels-photo-5257587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-size: cover;
-    width: 500px;
-    height: 1000px;
-    border-top-left-radius: 6px;
+}
+
+.form-container {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.text-center {
+    padding: 70px;
+    color: #bdbdbd;
 }
 
 .profile-photo .form-container {
     display: table;
-    width: 1000px;
-    height: 100%;
-    margin-left: 25%;
-    text-align:center;
-    margin-top: 25px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1)
+    width: 70vw;
+    height: 100vh;
+    text-align: center;
 }
 
 .profile-photo form {
-    margin-top: 50px;
     display: table-cell;
-    background-color: #54988E;
-    width: 500px;
-    margin-right: 200px;
+    background-color: rgb(45, 45, 45);
+    width: 55%;
     padding: 60px 60px;
-    color: #505e6c;
     border-top-right-radius: 6px;
 }
 
 h3 a {
-    color: black;
+    color: rgb(220, 220, 220);
     border: 2px solid #4CAF50;
     padding: 10px 20px;
     text-align: center;
@@ -51,7 +54,7 @@ h3 a {
     font-size: 16px;
 }
 
-h3 a:hover {
+    h3 a:hover {
         background-color: #4CAF50;
         color: white;
     }
@@ -65,7 +68,6 @@ h3 a:hover {
 .profile-photo form h2 {
     font-size: 24px;
     line-height: 1.5;
-    margin-bottom: 30px
 }
 
 .profile-photo form .form-control {
@@ -96,17 +98,16 @@ h3 a:hover {
     outline: none !important
 }
 
-    .profile-photo form .btn-primary:hover,
-    .profile-photo form .btn-primary:active {
-        background: blue
-    }
+.profile-photo form .btn-primary:hover,
+.profile-photo form .btn-primary:active {
+    background: blue
+}
 
-    .profile-photo form .btn-primary:active {
-        transform: translateY(1px)
-    }
+.profile-photo form .btn-primary:active {
+    transform: translateY(1px)
+}
 
 .profile-photo form .already {
-    margin-top: 21px;
     display: block;
     text-align: center;
     font-size: 12px;
@@ -119,6 +120,5 @@ h3 a:hover {
 h3 {
     margin-top: 25px;
     text-align: center;
-    color: black;
-    font-style: italic;
+    color: rgb(191, 191, 191);
 }
